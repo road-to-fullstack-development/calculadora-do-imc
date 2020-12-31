@@ -1,0 +1,3915 @@
+/* Fontes do Googles */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Playfair+Display&family=Poppins&family=Raleway&family=Roboto&family=Source+Sans+Pro&display=swap');
+
+:root {
+    --sassy-font-LATO: 'Lato', sans-serif;
+    --sassy-font-MONTSERRAT: 'Montserrat', sans-serif;
+    --sassy-font-OPEN-SANS: 'Open Sans', sans-serif;
+    --sassy-font-PLAYFAIR: 'Playfair Display', serif;
+    --sassy-font-POPPINS: 'Poppins', sans-serif;
+    --sassy-font-RALEWAY: 'Raleway', sans-serif;
+    --sassy-font-ROBOTO: 'Roboto', sans-serif;
+    --sassy-font-SOURCE-SANS: 'Source Sans Pro', sans-serif;
+    --sassy-color-INDIANRED: #CD5C5C;
+    --sassy-color-LIGHTCORAL: #F08080;
+    --sassy-color-SALMON: #FA8072;
+    --sassy-color-DARKSALMON: #E9967A;
+    --sassy-color-LIGHTSALMON: #FFA07A;
+    --sassy-color-CRIMSON: #DC143C;
+    --sassy-color-RED: #FF0000;
+    --sassy-color-FIREBRICK: #B22222;
+    --sassy-color-DARKRED: #8B0000;
+    --sassy-color-PINK: #FFC0CB;
+    --sassy-color-LIGHTPINK: #FFB6C1;
+    --sassy-color-HOTPINK: #FF69B4;
+    --sassy-color-DEEPPINK: #FF1493;
+    --sassy-color-MEDIUMVIOLETRED: #C71585;
+    --sassy-color-PALEVIOLETRED: #DB7093;
+    --sassy-color-LIGHTSALMON: #FFA07A;
+    --sassy-color-CORAL: #FF7F50;
+    --sassy-color-TOMATO: #FF6347;
+    --sassy-color-ORANGERED: #FF4500;
+    --sassy-color-DARKORANGE: #FF8C00;
+    --sassy-color-ORANGE: #FFA500;
+    --sassy-color-GOLD: #FFD700;
+    --sassy-color-YELLOW: #FFFF00;
+    --sassy-color-LIGHTYELLOW: #FFFFE0;
+    --sassy-color-LEMONCHIFFON: #FFFACD;
+    --sassy-color-LIGHTGOLDENRODYELLOW: #FAFAD2;
+    --sassy-color-PAPAYAWHIP: #FFEFD5;
+    --sassy-color-MOCCASIN: #FFE4B5;
+    --sassy-color-PEACHPUFF: #FFDAB9;
+    --sassy-color-PALEGOLDENROD: #EEE8AA;
+    --sassy-color-KHAKI: #F0E68C;
+    --sassy-color-DARKKHAKI: #BDB76B;
+    --sassy-color-LAVENDER: #E6E6FA;
+    --sassy-color-THISTLE: #D8BFD8;
+    --sassy-color-PLUM: #DDA0DD;
+    --sassy-color-VIOLET: #EE82EE;
+    --sassy-color-ORCHID: #DA70D6;
+    --sassy-color-FUCHSIA: #FF00FF;
+    --sassy-color-MAGENTA: #FF00FF;
+    --sassy-color-MEDIUMORCHID: #BA55D3;
+    --sassy-color-MEDIUMPURPLE: #9370DB;
+    --sassy-color-REBECCAPURPLE: #663399;
+    --sassy-color-BLUEVIOLET: #8A2BE2;
+    --sassy-color-DARKVIOLET: #9400D3;
+    --sassy-color-DARKORCHID: #9932CC;
+    --sassy-color-DARKMAGENTA: #8B008B;
+    --sassy-color-PURPLE: #800080;
+    --sassy-color-INDIGO: #4B0082;
+    --sassy-color-SLATEBLUE: #6A5ACD;
+    --sassy-color-DARKSLATEBLUE: #483D8B;
+    --sassy-color-MEDIUMSLATEBLUE: #7B68EE;
+    --sassy-color-GREENYELLOW: #ADFF2F;
+    --sassy-color-CHARTREUSE: #7FFF00;
+    --sassy-color-LAWNGREEN: #7CFC00;
+    --sassy-color-LIME: #00FF00;
+    --sassy-color-LIMEGREEN: #32CD32;
+    --sassy-color-PALEGREEN: #98FB98;
+    --sassy-color-LIGHTGREEN: #90EE90;
+    --sassy-color-MEDIUMSPRINGGREEN: #00FA9A;
+    --sassy-color-SPRINGGREEN: #00FF7F;
+    --sassy-color-MEDIUMSEAGREEN: #3CB371;
+    --sassy-color-SEAGREEN: #2E8B57;
+    --sassy-color-FORESTGREEN: #228B22;
+    --sassy-color-GREEN: #008000;
+    --sassy-color-DARKGREEN: #006400;
+    --sassy-color-YELLOWGREEN: #9ACD32;
+    --sassy-color-OLIVEDRAB: #6B8E23;
+    --sassy-color-OLIVE: #808000;
+    --sassy-color-DARKOLIVEGREEN: #556B2F;
+    --sassy-color-MEDIUMAQUAMARINE: #66CDAA;
+    --sassy-color-DARKSEAGREEN: #8FBC8B;
+    --sassy-color-LIGHTSEAGREEN: #20B2AA;
+    --sassy-color-DARKCYAN: #008B8B;
+    --sassy-color-TEAL: #008080;
+    --sassy-color-AQUA: #00FFFF;
+    --sassy-color-CYAN: #00FFFF;
+    --sassy-color-LIGHTCYAN: #E0FFFF;
+    --sassy-color-PALETURQUOISE: #AFEEEE;
+    --sassy-color-AQUAMARINE: #7FFFD4;
+    --sassy-color-TURQUOISE: #40E0D0;
+    --sassy-color-MEDIUMTURQUOISE: #48D1CC;
+    --sassy-color-DARKTURQUOISE: #00CED1;
+    --sassy-color-CADETBLUE: #5F9EA0;
+    --sassy-color-STEELBLUE: #4682B4;
+    --sassy-color-LIGHTSTEELBLUE: #B0C4DE;
+    --sassy-color-POWDERBLUE: #B0E0E6;
+    --sassy-color-LIGHTBLUE: #ADD8E6;
+    --sassy-color-SKYBLUE: #87CEEB;
+    --sassy-color-LIGHTSKYBLUE: #87CEFA;
+    --sassy-color-DEEPSKYBLUE: #00BFFF;
+    --sassy-color-DODGERBLUE: #1E90FF;
+    --sassy-color-CORNFLOWERBLUE: #6495ED;
+    --sassy-color-MEDIUMSLATEBLUE: #7B68EE;
+    --sassy-color-ROYALBLUE: #4169E1;
+    --sassy-color-BLUE: #0000FF;
+    --sassy-color-MEDIUMBLUE: #0000CD;
+    --sassy-color-DARKBLUE: #00008B;
+    --sassy-color-NAVY: #000080;
+    --sassy-color-MIDNIGHTBLUE: #191970;
+    --sassy-color-CORNSILK: #FFF8DC;
+    --sassy-color-BLANCHEDALMOND: #FFEBCD;
+    --sassy-color-BISQUE: #FFE4C4;
+    --sassy-color-NAVAJOWHITE: #FFDEAD;
+    --sassy-color-WHEAT: #F5DEB3;
+    --sassy-color-BURLYWOOD: #DEB887;
+    --sassy-color-TAN: #D2B48C;
+    --sassy-color-ROSYBROWN: #BC8F8F;
+    --sassy-color-SANDYBROWN: #F4A460;
+    --sassy-color-GOLDENROD: #DAA520;
+    --sassy-color-DARKGOLDENROD: #B8860B;
+    --sassy-color-PERU: #CD853F;
+    --sassy-color-CHOCOLATE: #D2691E;
+    --sassy-color-SADDLEBROWN: #8B4513;
+    --sassy-color-SIENNA: #A0522D;
+    --sassy-color-BROWN: #A52A2A;
+    --sassy-color-MAROON: #800000;
+    --sassy-color-WHITE: #FFFFFF;
+    --sassy-color-SNOW: #FFFAFA;
+    --sassy-color-HONEYDEW: #F0FFF0;
+    --sassy-color-MINTCREAM: #F5FFFA;
+    --sassy-color-AZURE: #F0FFFF;
+    --sassy-color-ALICEBLUE: #F0F8FF;
+    --sassy-color-GHOSTWHITE: #F8F8FF;
+    --sassy-color-WHITESMOKE: #F5F5F5;
+    --sassy-color-SEASHELL: #FFF5EE;
+    --sassy-color-BEIGE: #F5F5DC;
+    --sassy-color-OLDLACE: #FDF5E6;
+    --sassy-color-FLORALWHITE: #FFFAF0;
+    --sassy-color-IVORY: #FFFFF0;
+    --sassy-color-ANTIQUEWHITE: #FAEBD7;
+    --sassy-color-LINEN: #FAF0E6;
+    --sassy-color-LAVENDERBLUSH: #FFF0F5;
+    --sassy-color-MISTYROSE: #FFE4E1;
+    --sassy-color-GAINSBORO: #DCDCDC;
+    --sassy-color-LIGHTGRAY: #D3D3D3;
+    --sassy-color-SILVER: #C0C0C0;
+    --sassy-color-DARKGRAY: #A9A9A9;
+    --sassy-color-GRAY: #808080;
+    --sassy-color-DIMGRAY: #696969;
+    --sassy-color-LIGHTSLATEGRAY: #778899;
+    --sassy-color-SLATEGRAY: #708090;
+    --sassy-color-DARKSLATEGRAY: #2F4F4F;
+    --sassy-color-BLACK: #000000;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Flexbox Grid */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.sassy-container {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+[class*="sassy-column-"] {
+    height: 30px;
+    background: #e74c3c;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    -moz-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+[class*="sassy-column-"]:last-child {
+    margin-right: 0;
+}
+
+.sassy-row {
+    display: flex;
+}
+
+.sassy-column-1 {
+    flex: 1;
+    width: 100%;
+}
+
+.sassy-column-2 {
+    flex: 2;
+    width: 20%;
+}
+
+.sassy-column-10 {
+    flex: 10;
+    width: 80%;
+}
+
+.sassy-column-3 {
+    flex: 3;
+    width: 30%;
+}
+
+.sassy-column-9 {
+    flex: 9;
+    width: 70%;
+}
+
+.sassy-column-4 {
+    flex: 4;
+    width: 40%;
+}
+
+.sassy-column-8 {
+    flex: 8;
+    width: 60%;
+}
+
+.sassy-column-6 {
+    flex: 6;
+    width: 50%;
+}
+
+/* Padding em todos os lados */
+.sassy-padding-one {
+    padding: 1rem;
+}
+
+.sassy-padding-two {
+    padding: 2rem;
+}
+
+.sassy-padding-three {
+    padding: 3rem;
+}
+
+.sassy-padding-four {
+    padding: 4rem;
+}
+
+@media screen and (max-width: 50rem) {
+    .row {
+        display: block;
+        width: 100%;
+    }
+
+    [class*="c-"] {
+        flex: 1;
+        width: 100%;
+    }
+}
+
+/* Padding na parte de cima */
+.sassy-padding-top-one {
+    padding-top: 1rem;
+}
+
+.sassy-padding-top-two {
+    padding-top: 2rem;
+}
+
+.sassy-padding-top-three {
+    padding-top: 3rem;
+}
+
+.sassy-padding-top-four {
+    padding-top: 4rem;
+}
+
+/* Padding lado direito */
+.sassy-padding-right-one {
+    padding-right: 1rem;
+}
+
+.sassy-padding-right-two {
+    padding-right: 2rem;
+}
+
+.sassy-padding-right-three {
+    padding-right: 3rem;
+}
+
+.sassy-padding-right-four {
+    padding-right: 4rem;
+}
+
+/* Padding na parte de baixo */
+.sassy-padding-bottom-one {
+    padding-bottom: 1rem;
+}
+
+.sassy-padding-bottom-two {
+    padding-bottom: 2rem;
+}
+
+.sassy-padding-bottom-three {
+    padding-bottom: 3rem;
+}
+
+.sassy-padding-bottom-four {
+    padding-bottom: 4rem;
+}
+
+/* Padding no lado esquerdo */
+.sassy-padding-left-one {
+    padding-left: 1rem;
+}
+
+.sassy-padding-left-two {
+    padding-left: 2rem;
+}
+
+.sassy-padding-left-three {
+    padding-left: 3rem;
+}
+
+.sassy-padding-left-four {
+    padding-left: 4rem;
+}
+
+/* Margem em todos os lados */
+.sassy-margin-one {
+    margin: 1rem;
+}
+
+.sassy-margin-two {
+    margin: 2rem;
+}
+
+.sassy-margin-three {
+    margin: 3rem;
+}
+
+.sassy-margin-four {
+    margin: 4rem;
+}
+
+/* Margem na parte de cima */
+.sassy-margin-top-one {
+    margin-top: 1rem;
+}
+
+.sassy-margin-top-two {
+    margin-top: 2rem;
+}
+
+.sassy-margin-top-three {
+    margin-top: 3rem;
+}
+
+.sassy-margin-top-four {
+    margin-top: 4rem;
+}
+
+/* Margem lado direito */
+.sassy-margin-right-one {
+    margin-right: 1rem;
+}
+
+.sassy-margin-right-two {
+    margin-right: 2rem;
+}
+
+.sassy-margin-right-three {
+    margin-right: 3rem;
+}
+
+.sassy-margin-right-four {
+    margin-right: 4rem;
+}
+
+/* Margem na parte de baixo */
+.sassy-margin-bottom-one {
+    margin-bottom: 1rem;
+}
+
+.sassy-margin-bottom-two {
+    margin-bottom: 2rem;
+}
+
+.sassy-margin-bottom-three {
+    margin-bottom: 3rem;
+}
+
+.sassy-margin-bottom-four {
+    margin-bottom: 4rem;
+}
+
+/* Margem no lado esquerdo */
+.sassy-margin-left-one {
+    margin-left: 1rem;
+}
+
+.sassy-margin-left-two {
+    margin-left: 2rem;
+}
+
+.sassy-margin-left-three {
+    margin-left: 3rem;
+}
+
+.sassy-margin-left-four {
+    margin-left: 4rem;
+}
+
+/* Bordas arredondadas */
+
+.sassy-border-radius {
+    border-radius: 4px;
+}
+
+.sassy-border-radius-small {
+    border-radius: 2px;
+}
+
+.sassy-border-radius-medium {
+    border-radius: 4px;
+}
+
+.sassy-border-radius-large {
+    border-radius: 8px;
+}
+
+.sassy-border-radius-extra-large {
+    border-radius: 1rem;
+}
+
+.sassy-border-extra-extra-large {
+    border-radius: 2rem;
+}
+
+/* Fontes */
+
+.sassy-font-LATO {
+    font-family: var(--sassy-font-LATO);
+}
+
+.sassy-font-MONTSERRAT {
+    font-family: var(--sassy-font-MONTSERRAT)
+}
+
+.sassy-font-OPEN-SANS {
+    font-family: var(--sassy-font-OPEN-SANS);
+}
+
+.sassy-font-PLAYFAIR {
+    font-family: var(--sassy-font-PLAYFAIR);
+}
+
+.sassy-font-POPPINS {
+    font-family: var(--sassy-font-POPPINS);
+}
+
+.sassy-font-RALEWAY {
+    font-family: var(--sassy-font-RALEWAY);
+}
+
+.sassy-font-ROBOTO {
+    font-family: var(--sassy-font-ROBOTO);
+}
+
+.sassy-font-SOURCE-SANS {
+    font-family: var(--sassy-font-SOURCE-SANS);
+}
+
+/* CSS Grid */
+
+.sassy-css-grid {
+    max-width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+    grid-gap: 1rem;
+}
+
+.sassy-grid-item {
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.sassy-button {
+    border: none;
+    width: 5rem;
+    padding: 1rem;
+}
+
+/* Cores de fundo e texto */
+
+.sassy-color-INDIANRED {
+    color: var(--sassy-color-INDIANRED)
+}
+
+.sassy-background-INDIANRED {
+    background: var(--sassy-color-INDIANRED)
+}
+
+.sassy-color-LIGHTCORAL {
+    color: var(--sassy-color-LIGHTCORAL);
+}
+
+.sassy-background-LIGHTCORAL {
+    background: var(--sassy-color-LIGHTCORAL);
+}
+
+.sassy-color-SALMON {
+    color: var(--sassy-color-SALMON);
+}
+
+.sassy-background-SALMON {
+    background: var(--sassy-color-SALMON);
+}
+
+.sassy-color-DARKSALMON {
+    color: var(--sassy-color-DARKSALMON);
+}
+
+.sassy-background-DARKSALMON {
+    background: var(--sassy-color-DARKSALMON);
+}
+
+.sassy-color-LIGHTSALMON {
+    color: var(--sassy-color-LIGHTSALMON);
+}
+
+.sassy-background-LIGHTSALMON {
+    background: var(--sassy-color-LIGHTSALMON);
+}
+
+.sassy-color-CRIMSON {
+    color: var(--sassy-color-CRIMSON);
+}
+
+.sassy-background-CRIMSON {
+    background: var(--sassy-color-CRIMSON);
+}
+
+.sassy-color-RED {
+    color: var(--sassy-color-RED);
+}
+
+.sassy-background-RED {
+    background: var(--sassy-color-RED);
+}
+
+.sassy-color-FIREBRICK {
+    color: var(--sassy-color-FIREBRICK);
+}
+
+.sassy-background-FIREBRICK {
+    background: var(--sassy-color-FIREBRICK);
+}
+
+.sassy-color-DARKRED {
+    color: var(--sassy-color-DARKRED);
+}
+
+.sassy-background-DARKRED {
+    background: var(--sassy-color-DARKRED);
+}
+
+.sassy-color-PINK {
+    color: var(--sassy-color-PINK);
+}
+
+.sassy-background-PINK {
+    background: var(--sassy-color-PINK);
+}
+
+.sassy-color-LIGHTPINK {
+    color: var(--sassy-color-LIGHTPINK);
+}
+
+.sassy-background-LIGHTPINK {
+    background: var(--sassy-color-LIGHTPINK);
+}
+
+.sassy-color-HOTPINK {
+    color: var(--sassy-color-HOTPINK);
+}
+
+.sassy-background-HOTPINK {
+    background: var(--sassy-color-HOTPINK);
+}
+
+.sassy-color-DEEPPINK {
+    color: var(--sassy-color-DEEPPINK);
+}
+
+.sassy-background-DEEPPINK {
+    background: var(--sassy-color-DEEPPINK);
+}
+
+.sassy-color-MEDIUMVIOLETRED {
+    color: var(--sassy-color-MEDIUMVIOLETRED);
+}
+
+.sassy-background-MEDIUMVIOLETRED {
+    background: var(--sassy-color-MEDIUMVIOLETRED);
+}
+
+.sassy-color-PALEVIOLETRED {
+    color: var(--sassy-color-PALEVIOLETRED);
+}
+
+.sassy-background-PALEVIOLETRED {
+    background: var(--sassy-color-PALEVIOLETRED);
+}
+
+.sassy-color-LIGHTSALMON {
+    color: var(--sassy-color-LIGHTSALMON);
+}
+
+.sassy-background-LIGHTSALMON {
+    background: var(--sassy-color-LIGHTSALMON);
+}
+
+.sassy-color-CORAL {
+    color: var(--sassy-color-CORAL);
+}
+
+.sassy-background-CORAL {
+    background: var(--sassy-color-CORAL);
+}
+
+.sassy-color-TOMATO {
+    color: var(--sassy-color-TOMATO);
+}
+
+.sassy-background-TOMATO {
+    background: var(--sassy-color-TOMATO);
+}
+
+.sassy-color-ORANGERED {
+    color: var(--sassy-color-ORANGERED);
+}
+
+.sassy-background-ORANGERED {
+    background: var(--sassy-color-ORANGERED);
+}
+
+.sassy-color-DARKORANGE {
+    color: var(--sassy-color-DARKORANGE);
+}
+
+.sassy-background-DARKORANGE {
+    background: var(--sassy-color-DARKORANGE);
+}
+
+.sassy-color-ORANGE {
+    color: var(--sassy-color-ORANGE);
+}
+
+.sassy-background-ORANGE {
+    background: var(--sassy-color-ORANGE);
+}
+
+.sassy-color-GOLD {
+    color: var(--sassy-color-GOLD);
+}
+
+.sassy-background-GOLD {
+    background: var(--sassy-color-GOLD);
+}
+
+.sassy-color-YELLOW {
+    color: var(--sassy-color-YELLOW);
+}
+
+.sassy-background-YELLOW {
+    background: var(--sassy-color-YELLOW);
+}
+
+.sassy-color-LIGHTYELLOW {
+    color: var(--sassy-color-LIGHTYELLOW);
+}
+
+.sassy-background-LIGHTYELLOWN {
+    background: var(--sassy-color-LIGHTYELLOW);
+}
+
+.sassy-color-LEMONCHIFFON {
+    color: var(--sassy-color-LEMONCHIFFON);
+}
+
+.sassy-background-LEMONCHIFFON {
+    background: var(--sassy-color-LEMONCHIFFON);
+}
+
+.sassy-color-LIGHTGOLDENRODYELLOW {
+    color: var(--sassy-color-LIGHTGOLDENRODYELLOW);
+}
+
+.sassy-background-LIGHTGOLDENRODYELLOW {
+    background: var(--sassy-color-LIGHTGOLDENRODYELLOW);
+}
+
+.sassy-color-PAPAYAWHIP {
+    color: var(--sassy-color-PAPAYAWHIP);
+}
+
+.sassy-background-PAPAYAWHIP {
+    background: var(--sassy-color-PAPAYAWHIP);
+}
+
+.sassy-color-MOCCASIN {
+    color: var(--sassy-color-MOCCASIN);
+}
+
+.sassy-background-MOCCASIN {
+    background: var(--sassy-color-MOCCASIN);
+}
+
+.sassy-color-PEACHPUFF {
+    color: var(--sassy-color-PEACHPUFF);
+}
+
+.sassy-background-PEACHPUFF {
+    background: var(--sassy-color-PEACHPUFF);
+}
+
+.sassy-color-PALEGOLDENROD {
+    color: var(--sassy-color-PALEGOLDENROD);
+}
+
+.sassy-background-PALEGOLDENROD {
+    background: var(--sassy-color-PALEGOLDENROD);
+}
+
+.sassy-color-KHAKI {
+    color: var(--sassy-color-KHAKI);
+}
+
+.sassy-background-KHAKI {
+    background: var(--sassy-color-KHAKI);
+}
+
+.sassy-color-DARKKHAKI {
+    color: var(--sassy-color-DARKKHAKI);
+}
+
+.sassy-background-DARKKHAKI {
+    background: var(--sassy-color-DARKKHAKI);
+}
+
+.sassy-color-LAVENDER {
+    color: var(--sassy-color-LAVENDER);
+}
+
+.sassy-background-LAVENDER {
+    background: var(--sassy-color-LAVENDER);
+}
+
+.sassy-color-THISTLE {
+    color: var(--sassy-color-THISTLE);
+}
+
+.sassy-background-THISTLE {
+    background: var(--sassy-color-THISTLE);
+}
+
+.sassy-color-PLUM {
+    color: var(--sassy-color-PLUM);
+}
+
+.sassy-background-PLUM {
+    background: var(--sassy-color-PLUM);
+}
+
+.sassy-color-VIOLET {
+    color: var(--sassy-color-VIOLET);
+}
+
+.sassy-background-VIOLET {
+    background: var(--sassy-color-VIOLET);
+}
+
+.sassy-color-ORCHID {
+    color: var(--sassy-color-ORCHID);
+}
+
+.sassy-background-ORCHID {
+    background: var(--sassy-color-ORCHID);
+}
+
+.sassy-color-FUCHSIA {
+    color: var(--sassy-color-FUCHSIA);
+}
+
+.sassy-background-FUCHSIA {
+    background: var(--sassy-color-FUCHSIA);
+}
+
+.sassy-color-MAGENTA {
+    color: var(--sassy-color-MAGENTA);
+}
+
+.sassy-background-MAGENTA {
+    background: var(--sassy-color-MAGENTA);
+}
+
+.sassy-color-MEDIUMORCHID {
+    color: var(--sassy-color-MEDIUMORCHID);
+}
+
+.sassy-background-MEDIUMORCHID {
+    background: var(--sassy-color-MEDIUMORCHID);
+}
+
+.sassy-color-MEDIUMPURPLE {
+    color: var(--sassy-color-MEDIUMPURPLE);
+}
+
+.sassy-background-MEDIUMPURPLE {
+    background: var(--sassy-color-MEDIUMPURPLE);
+}
+
+.sassy-color-REBECCAPURPLE {
+    color: var(--sassy-color-REBECCAPURPLE);
+}
+
+.sassy-background-REBECCAPURPLE {
+    background: var(--sassy-color-REBECCAPURPLE);
+}
+
+.sassy-color-BLUEVIOLET {
+    color: var(--sassy-color-BLUEVIOLET);
+}
+
+.sassy-background-BLUEVIOLET {
+    background: var(--sassy-color-BLUEVIOLET);
+}
+
+.sassy-color-DARKVIOLET {
+    color: var(--sassy-color-DARKVIOLET);
+}
+
+.sassy-background-DARKVIOLET {
+    background: var(--sassy-color-DARKVIOLET);
+}
+
+.sassy-color-DARKORCHID {
+    color: var(--sassy-color-DARKORCHID);
+}
+
+.sassy-background-DARKORCHID {
+    background: var(--sassy-color-DARKORCHID);
+}
+
+.sassy-color-DARKMAGENTA {
+    color: var(--sassy-color-DARKMAGENTA);
+}
+
+.sassy-background-DARKMAGENTA {
+    background: var(--sassy-color-DARKMAGENTA);
+}
+
+.sassy-color-PURPLE {
+    color: var(--sassy-color-PURPLE);
+}
+
+.sassy-background-PURPLE {
+    background: var(--sassy-color-PURPLE);
+}
+
+.sassy-color-INDIGO {
+    color: var(--sassy-color-INDIGO);
+}
+
+.sassy-background-INDIGO {
+    background: var(--sassy-color-INDIGO);
+}
+
+.sassy-color-SLATEBLUE {
+    color: var(--sassy-color-SLATEBLUE);
+}
+
+.sassy-background-SLATEBLUE {
+    background: var(--sassy-color-SLATEBLUE);
+}
+
+.sassy-color-DARKSLATEBLUE {
+    color: var(--sassy-color-DARKSLATEBLUE);
+}
+
+.sassy-background-DARKSLATEBLUE {
+    background: var(--sassy-color-DARKSLATEBLUE);
+}
+
+.sassy-color-MEDIUMSLATEBLUE {
+    color: var(--sassy-color-MEDIUMSLATEBLUE);
+}
+
+.sassy-background-MEDIUMSLATEBLUE {
+    background: var(--sassy-color-MEDIUMSLATEBLUE);
+}
+
+.sassy-color-GREENYELLOW {
+    color: var(--sassy-color-GREENYELLOW);
+}
+
+.sassy-background-GREENYELLOW {
+    background: var(--sassy-color-GREENYELLOW);
+}
+
+.sassy-color-CHARTREUSE {
+    color: var(--sassy-color-CHARTREUSE);
+}
+
+.sassy-background-CHARTREUSE {
+    background: var(--sassy-color-CHARTREUSE);
+}
+
+.sassy-color-LAWNGREEN {
+    color: var(--sassy-color-LAWNGREEN);
+}
+
+.sassy-background-LAWNGREEN {
+    background: var(--sassy-color-LAWNGREEN);
+}
+
+.sassy-color-LIME {
+    color: var(--sassy-color-LIME);
+}
+
+.sassy-background-LIME {
+    background: var(--sassy-color-LIME);
+}
+
+.sassy-color-LIMEGREEN {
+    color: var(--sassy-color-LIMEGREEN);
+}
+
+.sassy-background-LIMEGREEN {
+    background: var(--sassy-color-LIMEGREEN);
+}
+
+.sassy-color-PALEGREEN {
+    color: var(--sassy-color-PALEGREEN);
+}
+
+.sassy-background-PALEGREEN {
+    background: var(--sassy-color-PALEGREEN);
+}
+
+.sassy-color-LIGHTGREEN {
+    color: var(--sassy-color-LIGHTGREEN);
+}
+
+.sassy-background-LIGHTGREEN {
+    background: var(--sassy-color-LIGHTGREEN);
+}
+
+.sassy-color-MEDIUMSPRINGGREEN {
+    color: var(--sassy-color-MEDIUMSPRINGGREEN);
+}
+
+.sassy-background-MEDIUMSPRINGGREEN {
+    background: var(--sassy-color-MEDIUMSPRINGGREEN);
+}
+
+.sassy-color-SPRINGGREEN {
+    color: var(--sassy-color-SPRINGGREEN);
+}
+
+.sassy-background-SPRINGGREEN {
+    background: var(--sassy-color-SPRINGGREEN);
+}
+
+.sassy-color-MEDIUMSEAGREEN {
+    color: var(--sassy-color-MEDIUMSEAGREEN);
+}
+
+.sassy-background-MEDIUMSEAGREEN {
+    background: var(--sassy-color-MEDIUMSEAGREEN);
+}
+
+.sassy-color-SEAGREEN {
+    color: var(--sassy-color-SEAGREEN);
+}
+
+.sassy-background-SEAGREEN {
+    background: var(--sassy-color-SEAGREEN);
+}
+
+.sassy-color-FORESTGREEN {
+    color: var(--sassy-color-FORESTGREEN);
+}
+
+.sassy-background-FORESTGREEN {
+    background: var(--sassy-color-FORESTGREEN);
+}
+
+.sassy-color-GREEN {
+    color: var(--sassy-color-GREEN);
+}
+
+.sassy-background-GREEN {
+    background: var(--sassy-color-GREEN);
+}
+
+.sassy-color-DARKGREEN {
+    color: var(--sassy-color-DARKGREEN);
+}
+
+.sassy-background-DARKGREEN {
+    background: var(--sassy-color-DARKGREEN);
+}
+
+.sassy-color-YELLOWGREEN {
+    color: var(--sassy-color-YELLOWGREEN);
+}
+
+.sassy-background-YELLOWGREEN {
+    background: var(--sassy-color-YELLOWGREEN);
+}
+
+.sassy-color-OLIVEDRAB {
+    color: var(--sassy-color-OLIVEDRAB);
+}
+
+.sassy-background-OLIVEDRAB {
+    background: var(--sassy-color-OLIVEDRAB);
+}
+
+.sassy-color-OLIVE {
+    color: var(--sassy-color-OLIVE);
+}
+
+.sassy-background-OLIVE {
+    background: var(--sassy-color-OLIVE);
+}
+
+.sassy-color-DARKOLIVEGREEN {
+    color: var(--sassy-color-DARKOLIVEGREEN);
+}
+
+.sassy-background-DARKOLIVEGREEN {
+    background: var(--sassy-color-DARKOLIVEGREEN);
+}
+
+.sassy-color-MEDIUMAQUAMARINE {
+    color: var(--sassy-color-MEDIUMAQUAMARINE);
+}
+
+.sassy-background-MEDIUMAQUAMARINE {
+    background: var(--sassy-color-MEDIUMAQUAMARINE);
+}
+
+.sassy-color-DARKSEAGREEN {
+    color: var(--sassy-color-DARKSEAGREEN);
+}
+
+.sassy-background-DARKSEAGREEN {
+    background: var(--sassy-color-DARKSEAGREEN);
+}
+
+.sassy-color-LIGHTSEAGREEN {
+    color: var(--sassy-color-LIGHTSEAGREEN);
+}
+
+.sassy-background-LIGHTSEAGREEN {
+    background: var(--sassy-color-LIGHTSEAGREEN);
+}
+
+.sassy-color-DARKCYAN {
+    color: var(--sassy-color-DARKCYAN);
+}
+
+.sassy-background-DARKCYAN {
+    background: var(--sassy-color-DARKCYAN);
+}
+
+.sassy-color-TEAL {
+    color: var(--sassy-color-TEAL);
+}
+
+.sassy-background-TEAL {
+    background: var(--sassy-color-TEAL);
+}
+
+.sassy-color-AQUA {
+    color: var(--sassy-color-AQUA);
+}
+
+.sassy-background-AQUA {
+    background: var(--sassy-color-AQUA);
+}
+
+.sassy-color-CYAN {
+    color: var(--sassy-color-CYAN);
+}
+
+.sassy-background-CYAN {
+    background: var(--sassy-color-CYAN);
+}
+
+.sassy-color-LIGHTCYAN {
+    color: var(--sassy-color-LIGHTCYAN);
+}
+
+.sassy-background-LIGHTCYAN {
+    background: var(--sassy-color-LIGHTCYAN);
+}
+
+.sassy-color-PALETURQUOISE {
+    color: var(--sassy-color-PALETURQUOISE);
+}
+
+.sassy-background-PALETURQUOISE {
+    background: var(--sassy-color-PALETURQUOISE);
+}
+
+.sassy-color-AQUAMARINE {
+    color: var(--sassy-color-AQUAMARINE);
+}
+
+.sassy-background-AQUAMARINE {
+    background: var(--sassy-color-AQUAMARINE);
+}
+
+.sassy-color-TURQUOISE {
+    color: var(--sassy-color-TURQUOISE);
+}
+
+.sassy-background-TURQUOISE {
+    background: var(--sassy-color-TURQUOISE);
+}
+
+.sassy-color-MEDIUMTURQUOISE {
+    color: var(--sassy-color-MEDIUMTURQUOISE);
+}
+
+.sassy-background-MEDIUMTURQUOISE {
+    background: var(--sassy-color-MEDIUMTURQUOISE);
+}
+
+.sassy-color-DARKTURQUOISE {
+    color: var(--sassy-color-DARKTURQUOISE);
+}
+
+.sassy-background-DARKTURQUOISE {
+    background: var(--sassy-color-DARKTURQUOISE);
+}
+
+.sassy-color-CADETBLUE {
+    color: var(--sassy-color-CADETBLUE);
+}
+
+.sassy-background-CADETBLUE {
+    background: var(--sassy-color-CADETBLUE);
+}
+
+.sassy-color-STEELBLUE {
+    color: var(--sassy-color-STEELBLUE);
+}
+
+.sassy-background-STEELBLUE {
+    background: var(--sassy-color-STEELBLUE);
+}
+
+.sassy-color-LIGHTSTEELBLUE {
+    color: var(--sassy-color-LIGHTSTEELBLUE);
+}
+
+.sassy-background-LIGHTSTEELBLUE {
+    background: var(--sassy-color-LIGHTSTEELBLUE);
+}
+
+.sassy-color-POWDERBLUE {
+    color: var(--sassy-color-POWDERBLUE);
+}
+
+.sassy-background-POWDERBLUE {
+    background: var(--sassy-color-POWDERBLUE);
+}
+
+.sassy-color-LIGHTBLUE {
+    color: var(--sassy-color-LIGHTBLUE);
+}
+
+.sassy-background-LIGHTBLUE {
+    background: var(--sassy-color-LIGHTBLUE);
+}
+
+.sassy-color-SKYBLUE {
+    color: var(--sassy-color-SKYBLUE);
+}
+
+.sassy-background-SKYBLUE {
+    background: var(--sassy-color-SKYBLUE);
+}
+
+.sassy-color-LIGHTSKYBLUE {
+    color: var(--sassy-color-LIGHTSKYBLUE);
+}
+
+.sassy-background-LIGHTSKYBLUE {
+    background: var(--sassy-color-LIGHTSKYBLUE);
+}
+
+.sassy-color-DEEPSKYBLUE {
+    color: var(--sassy-color-DEEPSKYBLUE);
+}
+
+.sassy-background-DEEPSKYBLUE {
+    background: var(--sassy-color-DEEPSKYBLUE);
+}
+
+.sassy-color-DODGERBLUE {
+    color: var(--sassy-color-DODGERBLUE);
+}
+
+.sassy-background-DODGERBLUE {
+    background: var(--sassy-color-DODGERBLUE);
+}
+
+.sassy-color-CORNFLOWERBLUE {
+    color: var(--sassy-color-CORNFLOWERBLUE);
+}
+
+.sassy-background-CORNFLOWERBLUE {
+    background: var(--sassy-color-CORNFLOWERBLUE);
+}
+
+.sassy-color-MEDIUMSLATEBLUE {
+    color: var(--sassy-color-MEDIUMSLATEBLUE);
+}
+
+.sassy-background-MEDIUMSLATEBLUE {
+    background: var(--sassy-color-MEDIUMSLATEBLUE);
+}
+
+.sassy-color-ROYALBLUE {
+    color: var(--sassy-color-ROYALBLUE);
+}
+
+.sassy-background-ROYALBLUE {
+    background: var(--sassy-color-ROYALBLUE);
+}
+
+.sassy-color-BLUE {
+    color: var(--sassy-color-BLUE);
+}
+
+.sassy-background-BLUE {
+    background: var(--sassy-color-BLUE);
+}
+
+.sassy-color-MEDIUMBLUE {
+    color: var(--sassy-color-MEDIUMBLUE);
+}
+
+.sassy-background-MEDIUMBLUE {
+    background: var(--sassy-color-MEDIUMBLUE);
+}
+
+.sassy-color-DARKBLUE {
+    color: var(--sassy-color-DARKBLUE);
+}
+
+.sassy-background-DARKBLUE {
+    background: var(--sassy-color-DARKBLUE);
+}
+
+.sassy-color-NAVY {
+    color: var(--sassy-color-NAVY);
+}
+
+.sassy-background-NAVY {
+    background: var(--sassy-color-NAVY);
+}
+
+.sassy-color-MIDNIGHTBLUE {
+    color: var(--sassy-color-MIDNIGHTBLUE);
+}
+
+.sassy-background-MIDNIGHTBLUE {
+    background: var(--sassy-color-MIDNIGHTBLUE);
+}
+
+.sassy-color-CORNSILK {
+    color: var(--sassy-color-CORNSILK);
+}
+
+.sassy-background-CORNSILK {
+    background: var(--sassy-color-CORNSILK);
+}
+
+.sassy-color-BLANCHEDALMOND {
+    color: var(--sassy-color-BLANCHEDALMOND);
+}
+
+.sassy-background-BLANCHEDALMOND {
+    background: var(--sassy-color-BLANCHEDALMOND);
+}
+
+.sassy-color-BISQUE {
+    color: var(--sassy-color-BISQUE);
+}
+
+.sassy-background-BISQUE {
+    background: var(--sassy-color-BISQUE);
+}
+
+.sassy-color-NAVAJOWHITE {
+    color: var(--sassy-color-NAVAJOWHITE);
+}
+
+.sassy-background-NAVAJOWHITE {
+    background: var(--sassy-color-NAVAJOWHITE);
+}
+
+.sassy-color-WHEAT {
+    color: var(--sassy-color-WHEAT);
+}
+
+.sassy-background-WHEAT {
+    background: var(--sassy-color-WHEAT);
+}
+
+.sassy-color-BURLYWOOD {
+    color: var(--sassy-color-BURLYWOOD);
+}
+
+.sassy-background-BURLYWOOD {
+    background: var(--sassy-color-BURLYWOOD);
+}
+
+.sassy-color-TAN {
+    color: var(--sassy-color-TAN);
+}
+
+.sassy-background-TAN {
+    background: var(--sassy-color-TAN);
+}
+
+.sassy-color-ROSYBROWN {
+    color: var(--sassy-color-ROSYBROWN);
+}
+
+.sassy-background-ROSYBROWN {
+    background: var(--sassy-color-ROSYBROWN);
+}
+
+.sassy-color-SANDYBROWN {
+    color: var(--sassy-color-SANDYBROWN);
+}
+
+.sassy-background-SANDYBROWN {
+    background: var(--sassy-color-SANDYBROWN);
+}
+
+.sassy-color-GOLDENROD {
+    color: var(--sassy-color-GOLDENROD);
+}
+
+.sassy-background-GOLDENROD {
+    background: var(--sassy-color-GOLDENROD);
+}
+
+.sassy-color-DARKGOLDENROD {
+    color: var(--sassy-color-DARKGOLDENROD);
+}
+
+.sassy-background-DARKGOLDENROD {
+    background: var(--sassy-color-DARKGOLDENROD);
+}
+
+.sassy-color-PERU {
+    color: var(--sassy-color-PERU);
+}
+
+.sassy-background-PERU {
+    background: var(--sassy-color-PERU);
+}
+
+.sassy-color-CHOCOLATE {
+    color: var(--sassy-color-CHOCOLATE);
+}
+
+.sassy-background-CHOCOLATE {
+    background: var(--sassy-color-CHOCOLATE);
+}
+
+.sassy-color-SADDLEBROWN {
+    color: var(--sassy-color-SADDLEBROWN);
+}
+
+.sassy-background-SADDLEBROWN {
+    background: var(--sassy-color-SADDLEBROWN);
+}
+
+.sassy-color-SIENNA {
+    color: var(--sassy-color-SIENNA);
+}
+
+.sassy-background-SIENNA {
+    background: var(--sassy-color-SIENNA);
+}
+
+.sassy-color-BROWN {
+    color: var(--sassy-color-BROWN);
+}
+
+.sassy-background-BROWN {
+    background: var(--sassy-color-BROWN);
+}
+
+.sassy-color-MAROON {
+    color: var(--sassy-color-MAROON);
+}
+
+.sassy-background-MAROON {
+    background: var(--sassy-color-MAROON);
+}
+
+.sassy-color-SNOW {
+    color: var(--sassy-color-SNOW);
+}
+
+.sassy-background-SNOW {
+    background: var(--sassy-color-SNOW);
+}
+
+.sassy-color-HONEYDEW {
+    color: var(--sassy-color-HONEYDEW);
+}
+
+.sassy-background-HONEYDEW {
+    background: var(--sassy-color-HONEYDEW);
+}
+
+.sassy-color-MINTCREAM {
+    color: var(--sassy-color-MINTCREAM);
+}
+
+.sassy-background-MINTCREAM {
+    background: var(--sassy-color-MINTCREAM);
+}
+
+.sassy-color-AZURE {
+    color: var(--sassy-color-AZURE);
+}
+
+.sassy-background-AZURE {
+    background: var(--sassy-color-AZURE);
+}
+
+.sassy-color-ALICEBLUE {
+    color: var(--sassy-color-ALICEBLUE);
+}
+
+.sassy-background-ALICEBLUE {
+    background: var(--sassy-color-ALICEBLUE);
+}
+
+.sassy-color-GHOSTWHITE {
+    color: var(--sassy-color-GHOSTWHITE);
+}
+
+.sassy-background-GHOSTWHITE {
+    background: var(--sassy-color-GHOSTWHITE);
+}
+
+.sassy-color-WHITESMOKE {
+    color: var(--sassy-color-WHITESMOKE);
+}
+
+.sassy-background-WHITESMOKE {
+    background: var(--sassy-color-WHITESMOKE);
+}
+
+.sassy-color-SEASHELL {
+    color: var(--sassy-color-SEASHELL);
+}
+
+.sassy-background-SEASHELL {
+    background: var(--sassy-color-SEASHELL);
+}
+
+.sassy-color-BEIGE {
+    color: var(--sassy-color-BEIGE);
+}
+
+.sassy-background-BEIGE {
+    background: var(--sassy-color-BEIGE);
+}
+
+.sassy-color-OLDLACE {
+    color: var(--sassy-color-OLDLACE);
+}
+
+.sassy-background-OLDLACE {
+    background: var(--sassy-color-OLDLACE);
+}
+
+.sassy-color-FLORALWHITE {
+    color: var(--sassy-color-FLORALWHITE);
+}
+
+.sassy-background-FLORALWHITE {
+    background: var(--sassy-color-FLORALWHITE);
+}
+
+.sassy-color-IVORY {
+    color: var(--sassy-color-IVORY);
+}
+
+.sassy-background-IVORY {
+    background: var(--sassy-color-IVORY);
+}
+
+.sassy-color-ANTIQUEWHITE {
+    color: var(--sassy-color-ANTIQUEWHITE);
+}
+
+.sassy-background-ANTIQUEWHITE {
+    background: var(--sassy-color-ANTIQUEWHITE);
+}
+
+.sassy-color-LINEN {
+    color: var(--sassy-color-LINEN);
+}
+
+.sassy-background-LINEN {
+    background: var(--sassy-color-LINEN);
+}
+
+.sassy-color-LAVENDERBLUSH {
+    color: var(--sassy-color-LAVENDERBLUSH);
+}
+
+.sassy-background-LAVENDERBLUSH {
+    background: var(--sassy-color-LAVENDERBLUSH);
+}
+
+.sassy-color-MISTYROSE {
+    color: var(--sassy-color-MISTYROSE);
+}
+
+.sassy-background-MISTYROSE {
+    background: var(--sassy-color-MISTYROSE);
+}
+
+.sassy-color-GAINSBORO {
+    color: var(--sassy-color-GAINSBORO);
+}
+
+.sassy-background-GAINSBORO {
+    background: var(--sassy-color-GAINSBORO);
+}
+
+.sassy-color-LIGHTGRAY {
+    color: var(--sassy-color-LIGHTGRAY);
+}
+
+.sassy-background-LIGHTGRAY {
+    background: var(--sassy-color-LIGHTGRAY);
+}
+
+.sassy-color-SILVER {
+    color: var(--sassy-color-SILVER);
+}
+
+.sassy-background-SILVER {
+    background: var(--sassy-color-SILVER);
+}
+
+.sassy-color-DARKGRAY {
+    color: var(--sassy-color-DARKGRAY);
+}
+
+.sassy-background-DARKGRAY {
+    background: var(--sassy-color-DARKGRAY);
+}
+
+.sassy-color-GRAY {
+    color: var(--sassy-color-GRAY);
+}
+
+.sassy-background-GRAY {
+    background: var(--sassy-color-GRAY);
+}
+
+.sassy-color-DIMGRAY {
+    color: var(--sassy-color-DIMGRAY);
+}
+
+.sassy-background-DIMGRAY {
+    background: var(--sassy-color-DIMGRAY);
+}
+
+.sassy-color-LIGHTSLATEGRAY {
+    color: var(--sassy-color-LIGHTSLATEGRAY);
+}
+
+.sassy-background-LIGHTSLATEGRAY {
+    background: var(--sassy-color-LIGHTSLATEGRAY);
+}
+
+.sassy-color-SLATEGRAY {
+    color: var(--sassy-color-SLATEGRAY);
+}
+
+.sassy-background-SLATEGRAY {
+    background: var(--sassy-color-SLATEGRAY);
+}
+
+.sassy-color-DARKSLATEGRAY {
+    color: var(--sassy-color-DARKSLATEGRAY);
+}
+
+.sassy-background-DARKSLATEGRAY {
+    background: var(--sassy-color-DARKSLATEGRAY);
+}
+
+.sassy-color-BLACK {
+    color: var(--sassy-color-BLACK);
+}
+
+.sassy-background-BLACK {
+    background: var(--sassy-color-BLACK);
+}
+
+
+
+/* Cores da borda */
+
+.sassy-color-border-INDIANRED {
+    border-color: var(--sassy-color-INDIANRED)
+}
+
+.sassy-color-border-hover-INDIANRED:hover {
+    border-color: var(--sassy-color-INDIANRED)
+}
+
+.sassy-color-border-LIGHTCORAL {
+    border-color: var(--sassy-color-LIGHTCORAL);
+}
+
+.sassy-color-border-hover-LIGHTCORAL:hover {
+    border-color: var(--sassy-color-LIGHTCORAL);
+}
+
+.sassy-color-border-SALMON {
+    border-color: var(--sassy-color-SALMON);
+}
+
+.sassy-color-border-hover-SALMON:hover {
+    border-color: var(--sassy-color-SALMON);
+}
+
+.sassy-color-border-DARKSALMON {
+    border-color: var(--sassy-color-DARKSALMON);
+}
+
+.sassy-color-border-hover-DARKSALMON:hover {
+    border-color: var(--sassy-color-DARKSALMON);
+}
+
+.sassy-color-border-LIGHTSALMON {
+    border-color: var(--sassy-color-LIGHTSALMON);
+}
+
+.sassy-color-border-hover-LIGHTSALMON:hover {
+    border-color: var(--sassy-color-LIGHTSALMON);
+}
+
+.sassy-color-border-CRIMSON {
+    border-color: var(--sassy-color-CRIMSON);
+}
+
+.sassy-color-border-hover-CRIMSON:hover {
+    border-color: var(--sassy-color-CRIMSON);
+}
+
+.sassy-color-border-RED {
+    border-color: var(--sassy-color-RED);
+}
+
+.sassy-color-border-hover-RED:hover {
+    border-color: var(--sassy-color-RED);
+}
+
+.sassy-color-border-FIREBRICK {
+    border-color: var(--sassy-color-FIREBRICK);
+}
+
+.sassy-color-border-hover-FIREBRICK:hover {
+    border-color: var(--sassy-color-FIREBRICK);
+}
+
+.sassy-color-DARKRED {
+    border-color: var(--sassy-color-DARKRED);
+}
+
+.sassy-color-border-hover-DARKRED:hover {
+    border-color: var(--sassy-color-DARKRED);
+}
+
+.sassy-color-PINK {
+    border-color: var(--sassy-color-PINK);
+}
+
+.sassy-color-border-hover-PINK:hover {
+    border-color: var(--sassy-color-PINK);
+}
+
+.sassy-color-LIGHTPINK {
+    border-color: var(--sassy-color-LIGHTPINK);
+}
+
+.sassy-color-border-hover-LIGHTPINK:hover {
+    border-color: var(--sassy-color-LIGHTPINK);
+}
+
+.sassy-color-border-HOTPINK {
+    border-color: var(--sassy-color-HOTPINK);
+}
+
+.sassy-color-border-hover-HOTPINK:hover {
+    border-color: var(--sassy-color-HOTPINK);
+}
+
+.sassy-color-border-DEEPPINK {
+    border-color: var(--sassy-color-DEEPPINK);
+}
+
+.sassy-color-border-hover-DEEPPINK:hover {
+    border-color: var(--sassy-color-DEEPPINK);
+}
+
+.sassy-color-border-MEDIUMVIOLETRED {
+    border-color: var(--sassy-color-MEDIUMVIOLETRED);
+}
+
+.sassy-color-border-hover-MEDIUMVIOLETRED:hover {
+    border-color: var(--sassy-color-MEDIUMVIOLETRED);
+}
+
+.sassy-color-border-PALEVIOLETRED {
+    border-color: var(--sassy-color-PALEVIOLETRED);
+}
+
+.sassy-color-border-hover-PALEVIOLETRED:hover {
+    border-color: var(--sassy-color-PALEVIOLETRED);
+}
+
+.sassy-color-border-LIGHTSALMON {
+    border-color: var(--sassy-color-LIGHTSALMON);
+}
+
+.sassy-color-border-hover-LIGHTSALMON:hover {
+    border-color: var(--sassy-color-LIGHTSALMON);
+}
+
+.sassy-color-border-CORAL {
+    border-color: var(--sassy-color-CORAL);
+}
+
+.sassy-color-border-hover-CORAL:hover {
+    border-color: var(--sassy-color-CORAL);
+}
+
+.sassy-color-border-TOMATO {
+    border-color: var(--sassy-color-TOMATO);
+}
+
+.sassy-color-border-hover-TOMATO:hover {
+    border-color: var(--sassy-color-TOMATO);
+}
+
+.sassy-color-border-ORANGERED {
+    border-color: var(--sassy-color-ORANGERED);
+}
+
+.sassy-color-border-hover-ORANGERED:hover {
+    border-color: var(--sassy-color-ORANGERED);
+}
+
+.sassy-color-border-DARKORANGE {
+    border-color var(--sassy-color-DARKORANGE);
+}
+
+.sassy-color-border-hover-DARK:hover {
+    border-color: var(--sassy-color-DARKORANGE);
+}
+
+.sassy-color-border-ORANGE {
+    border-color: var(--sassy-color-ORANGE);
+}
+
+.sassy-color-border-hover-ORAN:hover {
+    border-color: var(--sassy-color-ORANGE);
+}
+
+.sassy-color-border-GOLD {
+    border-color: var(--sassy-color-GOLD);
+}
+
+.sassy-color-border-hover-GOLD:hover {
+    border-color: var(--sassy-color-GOLD);
+}
+
+.sassy-color-border-YELLOW {
+    border-color: var(--sassy-color-YELLOW);
+}
+
+.sassy-color-border-hover-YELLOW:hover {
+    border-color: var(--sassy-color-YELLOW);
+}
+
+.sassy-color-border-LIGHTYELLOW {
+    border-color: var(--sassy-color-LIGHTYELLOW);
+}
+
+.sassy-color-border-hover-LIGHTY:hover {
+    border-color: var(--sassy-color-LIGHTYELLOW);
+}
+
+.sassy-color-border-LEMONCHIFFON {
+    border-color: var(--sassy-color-LEMONCHIFFON);
+}
+
+.sassy-color-border-hover-LEMONCHIFFON:hover {
+    border-color: var(--sassy-color-LEMONCHIFFON);
+}
+
+.sassy-color-border-LIGHTGOLDENRODYELLOW {
+    color: var(--sassy-color-LIGHTGOLDENRODYELLOW);
+}
+
+.sassy-color-border-hover-LIGHTGOLDENRODYELLOW:hover {
+    background: var(--sassy-color-LIGHTGOLDENRODYELLOW);
+}
+
+.sassy-color-border-PAPAYAWHIP {
+    border-color: var(--sassy-color-PAPAYAWHIP);
+}
+
+.sassy-color-border-hover-PAPAYAWHIP:hover {
+    border-color: var(--sassy-color-PAPAYAWHIP);
+}
+
+.sassy-color-border-MOCCASIN {
+    border-color: var(--sassy-color-MOCCASIN);
+}
+
+.sassy-color-border-hover-MOCCASIN:hover {
+    border-color: var(--sassy-color-MOCCASIN);
+}
+
+.sassy-color-border-PEACHPUFF {
+    border-color: var(--sassy-color-PEACHPUFF);
+}
+
+.sassy-color-border-hover-PEACHPUFF:hover {
+    border-color: var(--sassy-color-PEACHPUFF);
+}
+
+.sassy-color-border-PALEGOLDENROD {
+    border-color: var(--sassy-color-PALEGOLDENROD);
+}
+
+.sassy-color-border-hover-PALEGOLDENROD:hover {
+    border-color: var(--sassy-color-PALEGOLDENROD);
+}
+
+.sassy-color-border-KHAKI {
+    border-color: var(--sassy-color-KHAKI);
+}
+
+.sassy-color-border-hover-KHAKI:hover {
+    border-color var(--sassy-color-KHAKI);
+}
+
+.sassy-color-border-DARKKHAKI {
+    border-color: var(--sassy-color-DARKKHAKI);
+}
+
+.sassy-color-border-hover-DARKKHAKI:hover {
+    border-color: var(--sassy-color-DARKKHAKI);
+}
+
+.sassy-color-border-LAVENDER {
+    border-color: var(--sassy-color-LAVENDER);
+}
+
+.sassy-color-border-hover-LAVENDER:hover {
+    border-color: var(--sassy-color-LAVENDER);
+}
+
+.sassy-color-border-THISTLE {
+    border-color: var(--sassy-color-THISTLE);
+}
+
+.sassy-color-border-hover-THISTLE:hover {
+    border-color: var(--sassy-color-THISTLE);
+}
+
+.sassy-color-border-PLUM {
+    border-color: var(--sassy-color-PLUM);
+}
+
+.sassy-color-border-hover-PLUM:hover {
+    border-color: var(--sassy-color-PLUM);
+}
+
+.sassy-color-border-VIOLET {
+    border-color: var(--sassy-color-VIOLET);
+}
+
+.sassy-color-border-hover-VIOLET:hover {
+    border-color: var(--sassy-color-VIOLET);
+}
+
+.sassy-color-border-ORCHID {
+    border-color var(--sassy-color-ORCHID);
+}
+
+.sassy-color-border-hover-ORCHID:hover {
+    border-color: var(--sassy-color-ORCHID);
+}
+
+.sassy-color-border-FUCHSIA {
+    border-color: var(--sassy-color-FUCHSIA);
+}
+
+.sassy-color-border-hover-FUCHSIA:hover {
+    border-color: var(--sassy-color-FUCHSIA);
+}
+
+.sassy-color-border-MAGENTA {
+    border-color: var(--sassy-color-MAGENTA);
+}
+
+.sassy-color-border-hover-MAGENTA:hover {
+    border-color: var(--sassy-color-MAGENTA);
+}
+
+.sassy-color-border-MEDIUMORCHID {
+    border-color: var(--sassy-color-MEDIUMORCHID);
+}
+
+.sassy-color-border-hover-MEDIUMORCHID:hover {
+    border-color: var(--sassy-color-MEDIUMORCHID);
+}
+
+.sassy-color-border-MEDIUMPURPLE {
+    border-color: var(--sassy-color-MEDIUMPURPLE);
+}
+
+.sassy-color-border-hover-MEDIUMPURPLE:hover {
+    border-color: var(--sassy-color-MEDIUMPURPLE);
+}
+
+.sassy-color-border-REBECCAPURPLE {
+    border-color: var(--sassy-color-REBECCAPURPLE);
+}
+
+.sassy-color-border-hover-REBECCAPURPLE:hover {
+    border-color: var(--sassy-color-REBECCAPURPLE);
+}
+
+.sassy-color-border-BLUEVIOLET {
+    border-color: var(--sassy-color-BLUEVIOLET);
+}
+
+.sassy-color-border-hover-BLUEVIOLET:hover {
+    border-color: var(--sassy-color-BLUEVIOLET);
+}
+
+.sassy-color-border-DARKVIOLET {
+    border-color: var(--sassy-color-DARKVIOLET);
+}
+
+.sassy-color-border-hover-DARKVIOLET:hover {
+    border-color: var(--sassy-color-DARKVIOLET);
+}
+
+.sassy-color-border-DARKORCHID {
+    border-color: var(--sassy-color-DARKORCHID);
+}
+
+.sassy-color-border-hover-DARKORCHID:hover {
+    border-color: var(--sassy-color-DARKORCHID);
+}
+
+.sassy-color-border-DARKMAGENTA {
+    border-color: var(--sassy-color-DARKMAGENTA);
+}
+
+.sassy-color-border-hover-DARKMAGENTA:hover {
+    border-color: var(--sassy-color-DARKMAGENTA);
+}
+
+.sassy-color-border-PURPLE {
+    border-color: var(--sassy-color-PURPLE);
+}
+
+.sassy-color-border-hover-PURPLE:hover {
+    border-color: var(--sassy-color-PURPLE);
+}
+
+.sassy-color-border-INDIGO {
+    border-color: var(--sassy-color-INDIGO);
+}
+
+.sassy-color-border-hover-INDIGO:hover {
+    border-color: var(--sassy-color-INDIGO);
+}
+
+.sassy-color-border-SLATEBLUE {
+    border-color: var(--sassy-color-SLATEBLUE);
+}
+
+.sassy-color-border-hover-SLATEBLUE:hover {
+    border-color: var(--sassy-color-SLATEBLUE);
+}
+
+.sassy-color-border-DARKSLATEBLUE {
+    border-color: var(--sassy-color-DARKSLATEBLUE);
+}
+
+.sassy-color-border-hover-DARKSLATEBLUE:hover {
+    border-color: var(--sassy-color-DARKSLATEBLUE);
+}
+
+.sassy-color-border-MEDIUMSLATEBLUE {
+    border-color: var(--sassy-color-MEDIUMSLATEBLUE);
+}
+
+.sassy-color-border-hover-MEDIUMSLATEBLUE:hover {
+    border-color: var(--sassy-color-MEDIUMSLATEBLUE);
+}
+
+.sassy-color-border-GREENYELLOW {
+    border-color: var(--sassy-color-GREENYELLOW);
+}
+
+.sassy-color-border-hover-GREENYELLOW:hover {
+    border-color: var(--sassy-color-GREENYELLOW);
+}
+
+.sassy-color-border-CHARTREUSE {
+    border-color: var(--sassy-color-CHARTREUSE);
+}
+
+.sassy-color-border-hover-CHARTREUSE:hover {
+    border-color: var(--sassy-color-CHARTREUSE);
+}
+
+.sassy-color-border-LAWNGREEN {
+    border-color: var(--sassy-color-LAWNGREEN);
+}
+
+.sassy-color-border-hover-LAWNGREEN:hover {
+    border-color: var(--sassy-color-LAWNGREEN);
+}
+
+.sassy-color-border-LIME {
+    border-color: var(--sassy-color-LIME);
+}
+
+.sassy-color-border-hover-LIME:hover {
+    border-color: var(--sassy-color-LIME);
+}
+
+.sassy-color-border-LIMEGREEN {
+    border-color: var(--sassy-color-LIMEGREEN);
+}
+
+.sassy-color-border-hover-LIMEGREEN:hover {
+    border-color: var(--sassy-color-LIMEGREEN);
+}
+
+.sassy-color-border-PALEGREEN {
+    border-color: var(--sassy-color-PALEGREEN);
+}
+
+.sassy-color-border-hover-PALEGREEN:hover {
+    border-color: var(--sassy-color-PALEGREEN);
+}
+
+.sassy-color-border-LIGHTGREEN {
+    border-color: var(--sassy-color-LIGHTGREEN);
+}
+
+.sassy-color-border-hover-LIGHTGREEN:hover {
+    border-color: var(--sassy-color-LIGHTGREEN);
+}
+
+.sassy-color-border-MEDIUMSPRINGGREEN {
+    border-color: var(--sassy-color-MEDIUMSPRINGGREEN);
+}
+
+.sassy-color-border-hover-MEDIUMSPRINGGREEN:hover {
+    border-color: var(--sassy-color-MEDIUMSPRINGGREEN);
+}
+
+.sassy-color-border-SPRINGGREEN {
+    border-color: var(--sassy-color-SPRINGGREEN);
+}
+
+.sassy-color-border-hover-SPRINGGREEN:hover {
+    border-color: var(--sassy-color-SPRINGGREEN);
+}
+
+.sassy-color-border-MEDIUMSEAGREEN {
+    border-color: var(--sassy-color-MEDIUMSEAGREEN);
+}
+
+.sassy-color-border-hover-MEDIUMSEAGREEN:hover {
+    border-color: var(--sassy-color-MEDIUMSEAGREEN);
+}
+
+.sassy-color-border-SEAGREEN {
+    border-color: var(--sassy-color-SEAGREEN);
+}
+
+.sassy-color-border-hover-SEAGREEN:hover {
+    border-color: var(--sassy-color-SEAGREEN);
+}
+
+.sassy-color-border-FORESTGREEN {
+    border-color: var(--sassy-color-FORESTGREEN);
+}
+
+.sassy-color-border-hover-FORESTGREEN:hover {
+    border-color: var(--sassy-color-FORESTGREEN);
+}
+
+.sassy-color-border-GREEN {
+    border-color: var(--sassy-color-GREEN);
+}
+
+.sassy-color-border-hover-GREEN:hover {
+    border-color: var(--sassy-color-GREEN);
+}
+
+.sassy-color-border-DARKGREEN {
+    border-color: var(--sassy-color-DARKGREEN);
+}
+
+.sassy-color-border-hover-DARKGREEN:hover {
+    border-color: var(--sassy-color-DARKGREEN);
+}
+
+.sassy-color-border-YELLOWGREEN {
+    border-color: var(--sassy-color-YELLOWGREEN);
+}
+
+.sassy-color-border-yellow-YELLOWGREEN:hover {
+    border-color: var(--sassy-color-YELLOWGREEN);
+}
+
+.sassy-color-border-OLIVEDRAB {
+    border-color: var(--sassy-color-OLIVEDRAB);
+}
+
+.sassy-color-border-hover-OLIVEDRAB:hover {
+    border-color: var(--sassy-color-OLIVEDRAB);
+}
+
+.sassy-color-border-OLIVE {
+    border-color: var(--sassy-color-OLIVE);
+}
+
+.sassy-color-border-hover-OLIVE:hover {
+    border-color: var(--sassy-color-OLIVE);
+}
+
+.sassy-color-border-DARKOLIVEGREEN {
+    border-color: var(--sassy-color-DARKOLIVEGREEN);
+}
+
+.sassy-color-border-hover-DARKOLIVEGREEN:hover {
+    border-color: var(--sassy-color-DARKOLIVEGREEN);
+}
+
+.sassy-color-border-MEDIUMAQUAMARINE {
+    border-color: var(--sassy-color-MEDIUMAQUAMARINE);
+}
+
+.sassy-color-border-hover-MEDIUMAQUAMARINE:hover {
+    border-color: var(--sassy-color-MEDIUMAQUAMARINE);
+}
+
+.sassy-color-border-DARKSEAGREEN {
+    border-color: var(--sassy-color-DARKSEAGREEN);
+}
+
+.sassy-color-border-hover-DARKSEAGREEN:hover {
+    border-color: var(--sassy-color-DARKSEAGREEN);
+}
+
+.sassy-color-border-LIGHTSEAGREEN {
+    border-color: var(--sassy-color-LIGHTSEAGREEN);
+}
+
+.sassy-color-border-hover-LIGHTSEAGREEN:hover {
+    border-color: var(--sassy-color-LIGHTSEAGREEN);
+}
+
+.sassy-color-border-DARKCYAN {
+    border-color: var(--sassy-color-DARKCYAN);
+}
+
+.sassy-color-border-hover-DARKCYAN:hover {
+    border-color: var(--sassy-color-DARKCYAN);
+}
+
+.sassy-color-border-TEAL {
+    border-color: var(--sassy-color-TEAL);
+}
+
+.sassy-color-border-hover-TEAL:hover {
+    border-color: var(--sassy-color-TEAL);
+}
+
+.sassy-color-border-AQUA {
+    border-color: var(--sassy-color-AQUA);
+}
+
+.sassy-color-border-hover-AQUA:hover {
+    border-color: var(--sassy-color-AQUA);
+}
+
+.sassy-color-border-CYAN {
+    border-color: var(--sassy-color-CYAN);
+}
+
+.sassy-color-border-hover-CYAN:hover {
+    border-color: var(--sassy-color-CYAN);
+}
+
+.sassy-color-border-LIGHTCYAN {
+    border-color: var(--sassy-color-LIGHTCYAN);
+}
+
+.sassy-color-border-hover-LIGHTCYAN:hover {
+    border-color: var(--sassy-color-LIGHTCYAN);
+}
+
+.sassy-color-border-PALETURQUOISE {
+    border-color: var(--sassy-color-PALETURQUOISE);
+}
+
+.sassy-color-border-hover-PALETURQUOISE:hover {
+    border-color: var(--sassy-color-PALETURQUOISE);
+}
+
+.sassy-color-border-AQUAMARINE {
+    border-color: var(--sassy-color-AQUAMARINE);
+}
+
+.sassy-color-border-hover-AQUAMARINE:hover {
+    border-color: var(--sassy-color-AQUAMARINE);
+}
+
+.sassy-color-border-TURQUOISE {
+    border-color: var(--sassy-color-TURQUOISE);
+}
+
+.sassy-color-border-hover-TURQUOISE:hover {
+    border-color: var(--sassy-color-TURQUOISE);
+}
+
+.sassy-color-border-MEDIUMTURQUOISE {
+    border-color: var(--sassy-color-MEDIUMTURQUOISE);
+}
+
+.sassy-color-border-hover-MEDIUMTURQUOISE:hover {
+    border-color: var(--sassy-color-MEDIUMTURQUOISE);
+}
+
+.sassy-color-border-DARKTURQUOISE {
+    border-color: var(--sassy-color-DARKTURQUOISE);
+}
+
+.sassy-color-border-hover-DARKTURQUOISE:hover {
+    border-color: var(--sassy-color-DARKTURQUOISE);
+}
+
+.sassy-color-border-CADETBLUE {
+    border-color: var(--sassy-color-CADETBLUE);
+}
+
+.sassy-color-border-hover-CADETBLUE:hover {
+    border-color: var(--sassy-color-CADETBLUE);
+}
+
+.sassy-color-border-STEELBLUE {
+    border-color: var(--sassy-color-STEELBLUE);
+}
+
+.sassy-color-border-hover-STEELBLUE:hover {
+    border-color: var(--sassy-color-STEELBLUE);
+}
+
+.sassy-color-border-LIGHTSTEELBLUE {
+    border-color: var(--sassy-color-LIGHTSTEELBLUE);
+}
+
+.sassy-color-border-hover-LIGHTSTEELBLUE:hover {
+    border-color: var(--sassy-color-LIGHTSTEELBLUE);
+}
+
+.sassy-color-border-POWDERBLUE {
+    border-color: var(--sassy-color-POWDERBLUE);
+}
+
+.sassy-color-border-hover-POWDERBLUE:hover {
+    border-color: var(--sassy-color-POWDERBLUE);
+}
+
+.sassy-color-border-LIGHTBLUE {
+    border-color: var(--sassy-color-LIGHTBLUE);
+}
+
+.sassy-color-border-hover-LIGHTBLUE:hover {
+    border-color: var(--sassy-color-LIGHTBLUE);
+}
+
+.sassy-color-border-SKYBLUE {
+    border-color: var(--sassy-color-SKYBLUE);
+}
+
+.sassy-color-border-hover-SKYBLUE:hover {
+    border-color: var(--sassy-color-SKYBLUE);
+}
+
+.sassy-color-border-LIGHTSKYBLUE {
+    border-color: var(--sassy-color-LIGHTSKYBLUE);
+}
+
+.sassy-color-border-hover-LIGHTSKYBLUE:hover {
+    border-color: var(--sassy-color-LIGHTSKYBLUE);
+}
+
+.sassy-color-border-DEEPSKYBLUE {
+    border-color: var(--sassy-color-DEEPSKYBLUE);
+}
+
+.sassy-color-border-hover-DEEPSKYBLUE:hover {
+    border-color: var(--sassy-color-DEEPSKYBLUE);
+}
+
+.sassy-color-border-DODGERBLUE {
+    border-color: var(--sassy-color-DODGERBLUE);
+}
+
+.sassy-color-border-hover-DODGERBLUE:hover {
+    border-color: var(--sassy-color-DODGERBLUE);
+}
+
+.sassy-color-border-CORNFLOWERBLUE {
+    border-color: var(--sassy-color-CORNFLOWERBLUE);
+}
+
+.sassy-color-border-hover-CORNFLOWERBLUE:hover {
+    border-color: var(--sassy-color-CORNFLOWERBLUE);
+}
+
+.sassy-color-border-MEDIUMSLATEBLUE {
+    border-color: var(--sassy-color-MEDIUMSLATEBLUE);
+}
+
+.sassy-color-border-hover-MEDIUMSLATEBLUE:hover {
+    border-color: var(--sassy-color-MEDIUMSLATEBLUE);
+}
+
+.sassy-color-border-ROYALBLUE {
+    border-color: var(--sassy-color-ROYALBLUE);
+}
+
+.sassy-color-border-hover-ROYALBLUE:hover {
+    border-color: var(--sassy-color-ROYALBLUE);
+}
+
+.sassy-color-border-BLUE {
+    border-color: var(--sassy-color-BLUE);
+}
+
+.sassy-color-border-hover-BLUE:hover {
+    border-color: var(--sassy-color-BLUE);
+}
+
+.sassy-color-border-MEDIUMBLUE {
+    border-color: var(--sassy-color-MEDIUMBLUE);
+}
+
+.sassy-color-border-hover-MEDIUMBLUE:hover {
+    border-color: var(--sassy-color-MEDIUMBLUE);
+}
+
+.sassy-color-border-DARKBLUE {
+    border-color: var(--sassy-color-DARKBLUE);
+}
+
+.sassy-color-border-hover-DARKBLUE:hover {
+    border-color: var(--sassy-color-DARKBLUE);
+}
+
+.sassy-color-border-NAVY {
+    border-color: var(--sassy-color-NAVY);
+}
+
+.sassy-color-border-hover-NAVY:hover {
+    border-color: var(--sassy-color-NAVY);
+}
+
+.sassy-color-border-MIDNIGHTBLUE {
+    border-color: var(--sassy-color-MIDNIGHTBLUE);
+}
+
+.sassy-color-border-hover-MIDNIGHTBLUE:hover {
+    border-color: var(--sassy-color-MIDNIGHTBLUE);
+}
+
+.sassy-color-border-CORNSILK {
+    border-color: var(--sassy-color-CORNSILK);
+}
+
+.sassy-color-border-hover-CORNSILK:hover {
+    border-color: var(--sassy-color-CORNSILK);
+}
+
+.sassy-color-border-BLANCHEDALMOND {
+    border-color: var(--sassy-color-BLANCHEDALMOND);
+}
+
+.sassy-color-border-hover-BLANCHEDALMOND:hover {
+    border-color: var(--sassy-color-BLANCHEDALMOND);
+}
+
+.sassy-color-border-BISQUE {
+    border-color: var(--sassy-color-BISQUE);
+}
+
+.sassy-color-border-hover-BISQUE:hover {
+    border-color: var(--sassy-color-BISQUE);
+}
+
+.sassy-color-border-NAVAJOWHITE {
+    border-color: var(--sassy-color-NAVAJOWHITE);
+}
+
+.sassy-color-border-hover-NAVAJOWHITE:hover {
+    border-color: var(--sassy-color-NAVAJOWHITE);
+}
+
+.sassy-color-border-WHEAT {
+    border-color: var(--sassy-color-WHEAT);
+}
+
+.sassy-color-border-hover-WHEAT:hover {
+    border-color: var(--sassy-color-WHEAT);
+}
+
+.sassy-color-border-BURLYWOOD {
+    border-color: var(--sassy-color-BURLYWOOD);
+}
+
+.sassy-color-border-hover-BURLYWOOD:hover {
+    border-color: var(--sassy-color-BURLYWOOD);
+}
+
+.sassy-color-border-TAN {
+    border-color: var(--sassy-color-TAN);
+}
+
+.sassy-color-border-hover-TAN:hover {
+    border-color: var(--sassy-color-TAN);
+}
+
+.sassy-color-border-ROSYBROWN {
+    border-color: var(--sassy-color-ROSYBROWN);
+}
+
+.sassy-color-border-hover-ROSYBROWN:hover {
+    border-color: var(--sassy-color-ROSYBROWN);
+}
+
+.sassy-color-border-SANDYBROWN {
+    border-color: var(--sassy-color-SANDYBROWN);
+}
+
+.sassy-color-border-hover-SANDYBROWN:hover {
+    border-color: var(--sassy-color-SANDYBROWN);
+}
+
+.sassy-color-border-GOLDENROD {
+    border-color: var(--sassy-color-GOLDENROD);
+}
+
+.sassy-color-border-hover-GOLDENROD:hover {
+    border-color: var(--sassy-color-GOLDENROD);
+}
+
+.sassy-color-border-DARKGOLDENROD {
+    border-color: var(--sassy-color-DARKGOLDENROD);
+}
+
+.sassy-color-border-hover-DARKGOLDENROD:hover {
+    border-color: var(--sassy-color-DARKGOLDENROD);
+}
+
+.sassy-color-border-PERU {
+    border-color: var(--sassy-color-PERU);
+}
+
+.sassy-color-border-hover-PERU:hover {
+    border-color: var(--sassy-color-PERU);
+}
+
+.sassy-color-border-CHOCOLATE {
+    border-color: var(--sassy-color-CHOCOLATE);
+}
+
+.sassy-color-border-hover-CHOCOLATE:hover {
+    border-color: var(--sassy-color-CHOCOLATE);
+}
+
+.sassy-color-border-SADDLEBROWN {
+    border-color: var(--sassy-color-SADDLEBROWN);
+}
+
+.sassy-color-border-hover-SADDLEBROWN:hover {
+    border-color: var(--sassy-color-SADDLEBROWN);
+}
+
+.sassy-color-border-SIENNA {
+    border-color: var(--sassy-color-SIENNA);
+}
+
+.sassy-color-border-hover-SIENNA:hover {
+    border-color: var(--sassy-color-SIENNA);
+}
+
+.sassy-color-border-BROWN {
+    border-color: var(--sassy-color-BROWN);
+}
+
+.sassy-color-border-hover-BROWN:hover {
+    border-color: var(--sassy-color-BROWN);
+}
+
+.sassy-color-border-MAROON {
+    border-color: var(--sassy-color-MAROON);
+}
+
+.sassy-color-border-hover-MAROON:hover {
+    border-color: var(--sassy-color-MAROON);
+}
+
+.sassy-color-border-SNOW {
+    border-color: var(--sassy-color-SNOW);
+}
+
+.sassy-color-border-hover-SNOW:hover {
+    border-color var(--sassy-color-SNOW);
+}
+
+.sassy-color-border-HONEYDEW {
+    border-color var(--sassy-color-HONEYDEW);
+}
+
+.sassy-color-border-HONEYDEW:hover {
+    border-color: var(--sassy-color-HONEYDEW);
+}
+
+.sassy-color-border-MINTCREAM {
+    border-color: var(--sassy-color-MINTCREAM);
+}
+
+.sassy-color-border-hover-MINTCREAM:hover {
+    border-color: var(--sassy-color-MINTCREAM);
+}
+
+.sassy-color-border-AZURE {
+    border-color: var(--sassy-color-AZURE);
+}
+
+.sassy-color-border-hover-AZURE:hover {
+    border-color: var(--sassy-color-AZURE);
+}
+
+.sassy-color-border-ALICEBLUE {
+    border-color: var(--sassy-color-ALICEBLUE);
+}
+
+.sassy-color-border-hover-ALICEBLUE:hover {
+    border-color: var(--sassy-color-ALICEBLUE);
+}
+
+.sassy-color-border-GHOSTWHITE {
+    border-color: var(--sassy-color-GHOSTWHITE);
+}
+
+.sassy-color-border-hover-GHOSTWHITE:hover {
+    border-color: var(--sassy-color-GHOSTWHITE);
+}
+
+.sassy-color-border-WHITESMOKE {
+    border-color: var(--sassy-color-WHITESMOKE);
+}
+
+.sassy-color-border-hover-WHITESMOKE:hover {
+    border-color: var(--sassy-color-WHITESMOKE);
+}
+
+.sassy-color-border-SEASHELL {
+    border-color: var(--sassy-color-SEASHELL);
+}
+
+.sassy-color-border-hover-SEASHELL:hover {
+    border-color: var(--sassy-color-SEASHELL);
+}
+
+.sassy-color-border-BEIGE {
+    border-color: var(--sassy-color-BEIGE);
+}
+
+.sassy-color-border-hover-BEIGE:hover {
+    border-color: var(--sassy-color-BEIGE);
+}
+
+.sassy-color-border-OLDLACE {
+    border-color: var(--sassy-color-OLDLACE);
+}
+
+.sassy-color-border-hover-OLDLACE:hover {
+    border-color: var(--sassy-color-OLDLACE);
+}
+
+.sassy-color-border-FLORALWHITE {
+    border-color: var(--sassy-color-FLORALWHITE);
+}
+
+.sassy-color-border-hover-FLORALWHITE:hover {
+    border-color: var(--sassy-color-FLORALWHITE);
+}
+
+.sassy-color-border-IVORY {
+    border-color: var(--sassy-color-IVORY);
+}
+
+.sassy-color-border-hover-IVORY:hover {
+    border-color: var(--sassy-color-IVORY);
+}
+
+.sassy-color-border-ANTIQUEWHITE {
+    border-color: var(--sassy-color-ANTIQUEWHITE);
+}
+
+.sassy-color-border-hover-ANTIQUEWHITE:hover {
+    border-color: var(--sassy-color-ANTIQUEWHITE);
+}
+
+.sassy-color-border-LINEN {
+    border-color: var(--sassy-color-LINEN);
+}
+
+.sassy-color-border-hover-LINEN:hover {
+    border-color: var(--sassy-color-LINEN);
+}
+
+.sassy-color-border-LAVENDERBLUSH {
+    border-color: var(--sassy-color-LAVENDERBLUSH);
+}
+
+.sassy-color-border-hover-LAVENDERBLUSH:hover {
+    border-color: var(--sassy-color-LAVENDERBLUSH);
+}
+
+.sassy-color-border-MISTYROSE {
+    border-color: var(--sassy-color-MISTYROSE);
+}
+
+.sassy-color-border-hover-MISTYROSE:hover {
+    border-color: var(--sassy-color-MISTYROSE);
+}
+
+.sassy-color-border-GAINSBORO {
+    border-color: var(--sassy-color-GAINSBORO);
+}
+
+.sassy-color-border-hover-GAINSBORO:hover {
+    border-color: var(--sassy-color-GAINSBORO);
+}
+
+.sassy-color-border-LIGHTGRAY {
+    border-color: var(--sassy-color-LIGHTGRAY);
+}
+
+.sassy-color-border-hover-LIGHTGRAY:hover {
+    border-color: var(--sassy-color-LIGHTGRAY);
+}
+
+.sassy-color-border-SILVER {
+    border-color: var(--sassy-color-SILVER);
+}
+
+.sassy-color-border-hover-SILVER:hover {
+    border-color: var(--sassy-color-SILVER);
+}
+
+.sassy-color-border-DARKGRAY {
+    border-color: var(--sassy-color-DARKGRAY);
+}
+
+.sassy-color-border-hover-DARKGRAY:hover {
+    border-color: var(--sassy-color-DARKGRAY);
+}
+
+.sassy-color-border-GRAY {
+    border-color: var(--sassy-color-GRAY);
+}
+
+.sassy-color-border-hover-GRAY:hover {
+    border-color: var(--sassy-color-GRAY);
+}
+
+.sassy-color-border-DIMGRAY {
+    border-color: var(--sassy-color-DIMGRAY);
+}
+
+.sassy-color-border-hover-DIMGRAY:hover {
+    border-color: var(--sassy-color-DIMGRAY);
+}
+
+.sassy-color-border-LIGHTSLATEGRAY {
+    border-color: var(--sassy-color-LIGHTSLATEGRAY);
+}
+
+.sassy-color-border-hover-LIGHTSLATEGRAY:hover {
+    border-color: var(--sassy-color-LIGHTSLATEGRAY);
+}
+
+.sassy-color-border-SLATEGRAY {
+    border-color: var(--sassy-color-SLATEGRAY);
+}
+
+.sassy-color-border-hover-SLATEGRAY:hover {
+    border-color: var(--sassy-color-SLATEGRAY);
+}
+
+.sassy-color-border-DARKSLATEGRAY {
+    border-color: var(--sassy-color-DARKSLATEGRAY);
+}
+
+.sassy-color-border-hover-DARKSLATEGRAY:hover {
+    border-color: var(--sassy-color-DARKSLATEGRAY);
+}
+
+.sassy-color-border-BLACK {
+    border-color: var(--sassy-color-BLACK);
+}
+
+.sassy-color-border-hover-BLACK:hover {
+    border-color: var(--sassy-color-BLACK);
+}
+
+/* Cores que mudam ao passar o mouse */
+
+.sassy-color-hover-INDIANRED:hover {
+    color: var(--sassy-color-INDIANRED)
+}
+
+.sassy-background-hover-INDIANRED:hover {
+    background: var(--sassy-color-INDIANRED)
+}
+
+.sassy-color-hover-LIGHTCORAL:hover {
+    color: var(--sassy-color-LIGHTCORAL);
+}
+
+.sassy-background-hover-LIGHTCORAL:hover {
+    background: var(--sassy-color-LIGHTCORAL);
+}
+
+.sassy-color-hover-SALMON:hover {
+    color: var(--sassy-color-SALMON);
+}
+
+.sassy-background-hover-SALMON:hover {
+    background: var(--sassy-color-SALMON);
+}
+
+.sassy-color-hover-DARKSALMON:hover {
+    color: var(--sassy-color-DARKSALMON);
+}
+
+.sassy-background-hover-DARKSALMON:hover {
+    background: var(--sassy-color-DARKSALMON);
+}
+
+.sassy-color-hover-LIGHTSALMON:hover {
+    color: var(--sassy-color-LIGHTSALMON);
+}
+
+.sassy-background-hover-LIGHTSALMON:hover {
+    background: var(--sassy-color-LIGHTSALMON);
+}
+
+.sassy-color-hover-CRIMSON:hover {
+    color: var(--sassy-color-CRIMSON);
+}
+
+.sassy-background-hover-CRIMSON:hover {
+    background: var(--sassy-color-CRIMSON);
+}
+
+.sassy-color-hover-RED:hover {
+    color: var(--sassy-color-RED);
+}
+
+.sassy-background-hover-RED:hover {
+    background: var(--sassy-color-RED);
+}
+
+.sassy-color-hover-FIREBRICK:hover {
+    color: var(--sassy-color-FIREBRICK);
+}
+
+.sassy-background-hover-FIREBRICK:hover {
+    background: var(--sassy-color-FIREBRICK);
+}
+
+.sassy-color-hover-DARKRED:hover {
+    color: var(--sassy-color-DARKRED);
+}
+
+.sassy-background-hover-DARKRED:hover {
+    background: var(--sassy-color-DARKRED);
+}
+
+.sassy-color-hover-PINK:hover {
+    color: var(--sassy-color-PINK);
+}
+
+.sassy-background-hover-PINK:hover {
+    background: var(--sassy-color-PINK);
+}
+
+.sassy-color-hover-LIGHTPINK:hover {
+    color: var(--sassy-color-LIGHTPINK);
+}
+
+.sassy-background-hover-LIGHTPINK:hover {
+    background: var(--sassy-color-LIGHTPINK);
+}
+
+.sassy-color-hover-HOTPINK:hover {
+    color: var(--sassy-color-HOTPINK);
+}
+
+.sassy-background-hover-HOTPINK:hover {
+    background: var(--sassy-color-HOTPINK);
+}
+
+.sassy-color-hover-DEEPPINK:hover {
+    color: var(--sassy-color-DEEPPINK);
+}
+
+.sassy-background-hover-DEEPPINK:hover {
+    background: var(--sassy-color-DEEPPINK);
+}
+
+.sassy-color-hover-MEDIUMVIOLETRED:hover {
+    color: var(--sassy-color-MEDIUMVIOLETRED);
+}
+
+.sassy-background-hover-MEDIUMVIOLETRED:hover {
+    background: var(--sassy-color-MEDIUMVIOLETRED);
+}
+
+.sassy-color-hover-PALEVIOLETRED:hover {
+    color: var(--sassy-color-PALEVIOLETRED);
+}
+
+.sassy-background-hover-PALEVIOLETRED:hover {
+    background: var(--sassy-color-PALEVIOLETRED);
+}
+
+.sassy-color-hover-LIGHTSALMON:hover {
+    color: var(--sassy-color-LIGHTSALMON);
+}
+
+.sassy-background-hover-LIGHTSALMON:hover {
+    background: var(--sassy-color-LIGHTSALMON);
+}
+
+.sassy-color-hover-CORAL:hover {
+    color: var(--sassy-color-CORAL);
+}
+
+.sassy-background-hover-CORAL:hover {
+    background: var(--sassy-color-CORAL);
+}
+
+.sassy-color-hover-TOMATO:hover {
+    color: var(--sassy-color-TOMATO);
+}
+
+.sassy-background-hover-TOMATO:hover {
+    background: var(--sassy-color-TOMATO);
+}
+
+.sassy-color-hover-ORANGERED:hover {
+    color: var(--sassy-color-ORANGERED);
+}
+
+.sassy-background-hover-ORANGERED:hover {
+    background: var(--sassy-color-ORANGERED);
+}
+
+.sassy-color-hover-DARKORANGE:hover {
+    color: var(--sassy-color-DARKORANGE);
+}
+
+.sassy-background-hover-DARKORANGE:hover {
+    background: var(--sassy-color-DARKORANGE);
+}
+
+.sassy-color-hover-ORANGE:hover {
+    color: var(--sassy-color-ORANGE);
+}
+
+.sassy-background-hover-ORANGE:hover {
+    background: var(--sassy-color-ORANGE);
+}
+
+.sassy-color-hover-GOLD:hover {
+    color: var(--sassy-color-GOLD);
+}
+
+.sassy-background-hover-GOLD:hover {
+    background: var(--sassy-color-GOLD);
+}
+
+.sassy-color-hover-YELLOW:hover {
+    color: var(--sassy-color-YELLOW);
+}
+
+.sassy-background-hover-YELLOW:hover {
+    background: var(--sassy-color-YELLOW);
+}
+
+.sassy-color-hover-LIGHTYELLOW:hover {
+    color: var(--sassy-color-LIGHTYELLOW);
+}
+
+.sassy-background-hover-LIGHTYELLOWN:hover {
+    background: var(--sassy-color-LIGHTYELLOW);
+}
+
+.sassy-color-hover-LEMONCHIFFON:hover {
+    color: var(--sassy-color-LEMONCHIFFON);
+}
+
+.sassy-background-hover-LEMONCHIFFON:hover {
+    background: var(--sassy-color-LEMONCHIFFON);
+}
+
+.sassy-color-hover-LIGHTGOLDENRODYELLOW:hover {
+    color: var(--sassy-color-LIGHTGOLDENRODYELLOW);
+}
+
+.sassy-background-hover-LIGHTGOLDENRODYELLOW:hover {
+    background: var(--sassy-color-LIGHTGOLDENRODYELLOW);
+}
+
+.sassy-color-hover-PAPAYAWHIP:hover {
+    color: var(--sassy-color-PAPAYAWHIP);
+}
+
+.sassy-background-hover-PAPAYAWHIP:hover {
+    background: var(--sassy-color-PAPAYAWHIP);
+}
+
+.sassy-color-hover-MOCCASIN:hover {
+    color: var(--sassy-color-MOCCASIN);
+}
+
+.sassy-background-hover-MOCCASIN:hover {
+    background: var(--sassy-color-MOCCASIN);
+}
+
+.sassy-color-hover-PEACHPUFF:hover {
+    color: var(--sassy-color-PEACHPUFF);
+}
+
+.sassy-background-hover-PEACHPUFF:hover {
+    background: var(--sassy-color-PEACHPUFF);
+}
+
+.sassy-color-hover-PALEGOLDENROD:hover {
+    color: var(--sassy-color-PALEGOLDENROD);
+}
+
+.sassy-background-hover-PALEGOLDENROD:hover {
+    background: var(--sassy-color-PALEGOLDENROD);
+}
+
+.sassy-color-hover-KHAKI:hover {
+    color: var(--sassy-color-KHAKI);
+}
+
+.sassy-background-hover-KHAKI:hover {
+    background: var(--sassy-color-KHAKI);
+}
+
+.sassy-color-hover-DARKKHAKI:hover {
+    color: var(--sassy-color-DARKKHAKI);
+}
+
+.sassy-background-hover-DARKKHAKI:hover {
+    background: var(--sassy-color-DARKKHAKI);
+}
+
+.sassy-color-hover-LAVENDER:hover {
+    color: var(--sassy-color-LAVENDER);
+}
+
+.sassy-background-hover-LAVENDER:hover {
+    background: var(--sassy-color-LAVENDER);
+}
+
+.sassy-color-hover-THISTLE:hover {
+    color: var(--sassy-color-THISTLE);
+}
+
+.sassy-background-hover-THISTLE:hover {
+    background: var(--sassy-color-THISTLE);
+}
+
+.sassy-color-hover-PLUM:hover {
+    color: var(--sassy-color-PLUM);
+}
+
+.sassy-background-hover-PLUM:hover {
+    background: var(--sassy-color-PLUM);
+}
+
+.sassy-color-hover-VIOLET:hover {
+    color: var(--sassy-color-VIOLET);
+}
+
+.sassy-background-hover-VIOLET:hover {
+    background: var(--sassy-color-VIOLET);
+}
+
+.sassy-color-hover-ORCHID:hover {
+    color: var(--sassy-color-ORCHID);
+}
+
+.sassy-background-hover-ORCHID:hover {
+    background: var(--sassy-color-ORCHID);
+}
+
+.sassy-color-hover-FUCHSIA:hover {
+    color: var(--sassy-color-FUCHSIA);
+}
+
+.sassy-background-hover-FUCHSIA:hover {
+    background: var(--sassy-color-FUCHSIA);
+}
+
+.sassy-color-hover-MAGENTA:hover {
+    color: var(--sassy-color-MAGENTA);
+}
+
+.sassy-background-hover-MAGENTA:hover {
+    background: var(--sassy-color-MAGENTA);
+}
+
+.sassy-color-hover-MEDIUMORCHID:hover {
+    color: var(--sassy-color-MEDIUMORCHID);
+}
+
+.sassy-background-hover-MEDIUMORCHID:hover {
+    background: var(--sassy-color-MEDIUMORCHID);
+}
+
+.sassy-color-hover-MEDIUMPURPLE:hover {
+    color: var(--sassy-color-MEDIUMPURPLE);
+}
+
+.sassy-background-hover-MEDIUMPURPLE:hover {
+    background: var(--sassy-color-MEDIUMPURPLE);
+}
+
+.sassy-color-hover-REBECCAPURPLE:hover {
+    color: var(--sassy-color-REBECCAPURPLE);
+}
+
+.sassy-background-hover-REBECCAPURPLE:hover {
+    background: var(--sassy-color-REBECCAPURPLE);
+}
+
+.sassy-color-hover-BLUEVIOLET:hover {
+    color: var(--sassy-color-BLUEVIOLET);
+}
+
+.sassy-background-hover-BLUEVIOLET:hover {
+    background: var(--sassy-color-BLUEVIOLET);
+}
+
+.sassy-color-hover-DARKVIOLET:hover {
+    color: var(--sassy-color-DARKVIOLET);
+}
+
+.sassy-background-hover-DARKVIOLET:hover {
+    background: var(--sassy-color-DARKVIOLET);
+}
+
+.sassy-color-hover-DARKORCHID:hover {
+    color: var(--sassy-color-DARKORCHID);
+}
+
+.sassy-background-hover-DARKORCHID:hover {
+    background: var(--sassy-color-DARKORCHID);
+}
+
+.sassy-color-hover-DARKMAGENTA:hover {
+    color: var(--sassy-color-DARKMAGENTA);
+}
+
+.sassy-background-hover-DARKMAGENTA:hover {
+    background: var(--sassy-color-DARKMAGENTA);
+}
+
+.sassy-color-hover-PURPLE:hover {
+    color: var(--sassy-color-PURPLE);
+}
+
+.sassy-background-hover-PURPLE:hover {
+    background: var(--sassy-color-PURPLE);
+}
+
+.sassy-color-hover-INDIGO:hover {
+    color: var(--sassy-color-INDIGO);
+}
+
+.sassy-background-hover-INDIGO:hover {
+    background: var(--sassy-color-INDIGO);
+}
+
+.sassy-color-hover-SLATEBLUE:hover {
+    color: var(--sassy-color-SLATEBLUE);
+}
+
+.sassy-background-hover-SLATEBLUE:hover {
+    background: var(--sassy-color-SLATEBLUE);
+}
+
+.sassy-color-hover-DARKSLATEBLUE:hover {
+    color: var(--sassy-color-DARKSLATEBLUE);
+}
+
+.sassy-background-hover-DARKSLATEBLUE:hover {
+    background: var(--sassy-color-DARKSLATEBLUE);
+}
+
+.sassy-color-hover-MEDIUMSLATEBLUE:hover {
+    color: var(--sassy-color-MEDIUMSLATEBLUE);
+}
+
+.sassy-background-hover-MEDIUMSLATEBLUE:hover {
+    background: var(--sassy-color-MEDIUMSLATEBLUE);
+}
+
+.sassy-color-hover-GREENYELLOW:hover {
+    color: var(--sassy-color-GREENYELLOW);
+}
+
+.sassy-background-hover-GREENYELLOW:hover {
+    background: var(--sassy-color-GREENYELLOW);
+}
+
+.sassy-color-hover-CHARTREUSE:hover {
+    color: var(--sassy-color-CHARTREUSE);
+}
+
+.sassy-background-hover-CHARTREUSE:hover {
+    background: var(--sassy-color-CHARTREUSE);
+}
+
+.sassy-color-hover-LAWNGREEN:hover {
+    color: var(--sassy-color-LAWNGREEN);
+}
+
+.sassy-background-hover-LAWNGREEN:hover {
+    background: var(--sassy-color-LAWNGREEN);
+}
+
+.sassy-color-hover-LIME:hover {
+    color: var(--sassy-color-LIME);
+}
+
+.sassy-background-hover-LIME:hover {
+    background: var(--sassy-color-LIME);
+}
+
+.sassy-color-hover-LIMEGREEN:hover {
+    color: var(--sassy-color-LIMEGREEN);
+}
+
+.sassy-background-hover-LIMEGREEN:hover {
+    background: var(--sassy-color-LIMEGREEN);
+}
+
+.sassy-color-hover-PALEGREEN:hover {
+    color: var(--sassy-color-PALEGREEN);
+}
+
+.sassy-background-hover-PALEGREEN:hover {
+    background: var(--sassy-color-PALEGREEN);
+}
+
+.sassy-color-hover-LIGHTGREEN:hover {
+    color: var(--sassy-color-LIGHTGREEN);
+}
+
+.sassy-background-hover-LIGHTGREEN:hover {
+    background: var(--sassy-color-LIGHTGREEN);
+}
+
+.sassy-color-hover-MEDIUMSPRINGGREEN:hover {
+    color: var(--sassy-color-MEDIUMSPRINGGREEN);
+}
+
+.sassy-background-hover-MEDIUMSPRINGGREEN:hover {
+    background: var(--sassy-color-MEDIUMSPRINGGREEN);
+}
+
+.sassy-color-hover-SPRINGGREEN:hover {
+    color: var(--sassy-color-SPRINGGREEN);
+}
+
+.sassy-background-hover-SPRINGGREEN:hover {
+    background: var(--sassy-color-SPRINGGREEN);
+}
+
+.sassy-color-hover-MEDIUMSEAGREEN:hover {
+    color: var(--sassy-color-MEDIUMSEAGREEN);
+}
+
+.sassy-background-hover-MEDIUMSEAGREEN:hover {
+    background: var(--sassy-color-MEDIUMSEAGREEN);
+}
+
+.sassy-color-hover-SEAGREEN:hover {
+    color: var(--sassy-color-SEAGREEN);
+}
+
+.sassy-background-hover-SEAGREEN:hover {
+    background: var(--sassy-color-SEAGREEN);
+}
+
+.sassy-color-hover-FORESTGREEN:hover {
+    color: var(--sassy-color-FORESTGREEN);
+}
+
+.sassy-background-hover-FORESTGREEN:hover {
+    background: var(--sassy-color-FORESTGREEN);
+}
+
+.sassy-color-hover-GREEN:hover {
+    color: var(--sassy-color-GREEN);
+}
+
+.sassy-background-hover-GREEN:hover {
+    background: var(--sassy-color-GREEN);
+}
+
+.sassy-color-hover-DARKGREEN:hover {
+    color: var(--sassy-color-DARKGREEN);
+}
+
+.sassy-background-hover-DARKGREEN:hover {
+    background: var(--sassy-color-DARKGREEN);
+}
+
+.sassy-color-hover-YELLOWGREEN:hover {
+    color: var(--sassy-color-YELLOWGREEN);
+}
+
+.sassy-background-hover-YELLOWGREEN:hover {
+    background: var(--sassy-color-YELLOWGREEN);
+}
+
+.sassy-color-hover-OLIVEDRAB:hover {
+    color: var(--sassy-color-OLIVEDRAB);
+}
+
+.sassy-background-hover-OLIVEDRAB:hover {
+    background: var(--sassy-color-OLIVEDRAB);
+}
+
+.sassy-color-hover-OLIVE:hover {
+    color: var(--sassy-color-OLIVE);
+}
+
+.sassy-background-hover-OLIVE:hover {
+    background: var(--sassy-color-OLIVE);
+}
+
+.sassy-color-hover-DARKOLIVEGREEN:hover {
+    color: var(--sassy-color-DARKOLIVEGREEN);
+}
+
+.sassy-background-hover-DARKOLIVEGREEN:hover {
+    background: var(--sassy-color-DARKOLIVEGREEN);
+}
+
+.sassy-color-hover-MEDIUMAQUAMARINE:hover {
+    color: var(--sassy-color-MEDIUMAQUAMARINE);
+}
+
+.sassy-background-hover-MEDIUMAQUAMARINE:hover {
+    background: var(--sassy-color-MEDIUMAQUAMARINE);
+}
+
+.sassy-color-hover-DARKSEAGREEN:hover {
+    color: var(--sassy-color-DARKSEAGREEN);
+}
+
+.sassy-background-hover-DARKSEAGREEN:hover {
+    background: var(--sassy-color-DARKSEAGREEN);
+}
+
+.sassy-color-hover-LIGHTSEAGREEN:hover {
+    color: var(--sassy-color-LIGHTSEAGREEN);
+}
+
+.sassy-background-hover-LIGHTSEAGREEN:hover {
+    background: var(--sassy-color-LIGHTSEAGREEN);
+}
+
+.sassy-color-hover-DARKCYAN:hover {
+    color: var(--sassy-color-DARKCYAN);
+}
+
+.sassy-background-hover-DARKCYAN:hover {
+    background: var(--sassy-color-DARKCYAN);
+}
+
+.sassy-color-hover-TEAL:hover {
+    color: var(--sassy-color-TEAL);
+}
+
+.sassy-background-hover-TEAL:hover {
+    background: var(--sassy-color-TEAL);
+}
+
+.sassy-color-hover-AQUA:hover {
+    color: var(--sassy-color-AQUA);
+}
+
+.sassy-background-hover-AQUA:hover {
+    background: var(--sassy-color-AQUA);
+}
+
+.sassy-color-hover-CYAN:hover {
+    color: var(--sassy-color-CYAN);
+}
+
+.sassy-background-hover-CYAN:hover {
+    background: var(--sassy-color-CYAN);
+}
+
+.sassy-color-hover-LIGHTCYAN:hover {
+    color: var(--sassy-color-LIGHTCYAN);
+}
+
+.sassy-background-hover-LIGHTCYAN:hover {
+    background: var(--sassy-color-LIGHTCYAN);
+}
+
+.sassy-color-hover-PALETURQUOISE:hover {
+    color: var(--sassy-color-PALETURQUOISE);
+}
+
+.sassy-background-hover-PALETURQUOISE:hover {
+    background: var(--sassy-color-PALETURQUOISE);
+}
+
+.sassy-color-hover-AQUAMARINE:hover {
+    color: var(--sassy-color-AQUAMARINE);
+}
+
+.sassy-background-hover-AQUAMARINE:hover {
+    background: var(--sassy-color-AQUAMARINE);
+}
+
+.sassy-color-hover-TURQUOISE:hover {
+    color: var(--sassy-color-TURQUOISE);
+}
+
+.sassy-background-hover-TURQUOISE:hover {
+    background: var(--sassy-color-TURQUOISE);
+}
+
+.sassy-color-hover-MEDIUMTURQUOISE:hover {
+    color: var(--sassy-color-MEDIUMTURQUOISE);
+}
+
+.sassy-background-hover-MEDIUMTURQUOISE:hover {
+    background: var(--sassy-color-MEDIUMTURQUOISE);
+}
+
+.sassy-color-hover-DARKTURQUOISE:hover {
+    color: var(--sassy-color-DARKTURQUOISE);
+}
+
+.sassy-background-hover-DARKTURQUOISE:hover {
+    background: var(--sassy-color-DARKTURQUOISE);
+}
+
+.sassy-color-hover-CADETBLUE:hover {
+    color: var(--sassy-color-CADETBLUE);
+}
+
+.sassy-background-hover-CADETBLUE:hover {
+    background: var(--sassy-color-CADETBLUE);
+}
+
+.sassy-color-hover-STEELBLUE:hover {
+    color: var(--sassy-color-STEELBLUE);
+}
+
+.sassy-background-hover-STEELBLUE:hover {
+    background: var(--sassy-color-STEELBLUE);
+}
+
+.sassy-color-hover-LIGHTSTEELBLUE:hover {
+    color: var(--sassy-color-LIGHTSTEELBLUE);
+}
+
+.sassy-background-hover-LIGHTSTEELBLUE:hover {
+    background: var(--sassy-color-LIGHTSTEELBLUE);
+}
+
+.sassy-color-hover-POWDERBLUE:hover {
+    color: var(--sassy-color-POWDERBLUE);
+}
+
+.sassy-background-hover-POWDERBLUE:hover {
+    background: var(--sassy-color-POWDERBLUE);
+}
+
+.sassy-color-hover-LIGHTBLUE:hover {
+    color: var(--sassy-color-LIGHTBLUE);
+}
+
+.sassy-background-hover-LIGHTBLUE:hover {
+    background: var(--sassy-color-LIGHTBLUE);
+}
+
+.sassy-color-hover-SKYBLUE:hover {
+    color: var(--sassy-color-SKYBLUE);
+}
+
+.sassy-background-hover-SKYBLUE:hover {
+    background: var(--sassy-color-SKYBLUE);
+}
+
+.sassy-color-hover-LIGHTSKYBLUE:hover {
+    color: var(--sassy-color-LIGHTSKYBLUE);
+}
+
+.sassy-background-hover-LIGHTSKYBLUE:hover {
+    background: var(--sassy-color-LIGHTSKYBLUE);
+}
+
+.sassy-color-hover-DEEPSKYBLUE:hover {
+    color: var(--sassy-color-DEEPSKYBLUE);
+}
+
+.sassy-background-hover-DEEPSKYBLUE:hover {
+    background: var(--sassy-color-DEEPSKYBLUE);
+}
+
+.sassy-color-hover-DODGERBLUE:hover {
+    color: var(--sassy-color-DODGERBLUE);
+}
+
+.sassy-background-hover-DODGERBLUE:hover {
+    background: var(--sassy-color-DODGERBLUE);
+}
+
+.sassy-color-hover-CORNFLOWERBLUE:hover {
+    color: var(--sassy-color-CORNFLOWERBLUE);
+}
+
+.sassy-background-hover-CORNFLOWERBLUE:hover {
+    background: var(--sassy-color-CORNFLOWERBLUE);
+}
+
+.sassy-color-hover-MEDIUMSLATEBLUE:hover {
+    color: var(--sassy-color-MEDIUMSLATEBLUE);
+}
+
+.sassy-background-hover-MEDIUMSLATEBLUE:hover {
+    background: var(--sassy-color-MEDIUMSLATEBLUE);
+}
+
+.sassy-color-hover-ROYALBLUE:hover {
+    color: var(--sassy-color-ROYALBLUE);
+}
+
+.sassy-background-hover-ROYALBLUE:hover {
+    background: var(--sassy-color-ROYALBLUE);
+}
+
+.sassy-color-hover-BLUE:hover {
+    color: var(--sassy-color-BLUE);
+}
+
+.sassy-background-hover-BLUE:hover {
+    background: var(--sassy-color-BLUE);
+}
+
+.sassy-color-hover-MEDIUMBLUE:hover {
+    color: var(--sassy-color-MEDIUMBLUE);
+}
+
+.sassy-background-hover-MEDIUMBLUE:hover {
+    background: var(--sassy-color-MEDIUMBLUE);
+}
+
+.sassy-color-hover-DARKBLUE:hover {
+    color: var(--sassy-color-DARKBLUE);
+}
+
+.sassy-background-hover-DARKBLUE:hover {
+    background: var(--sassy-color-DARKBLUE);
+}
+
+.sassy-color-hover-NAVY:hover {
+    color: var(--sassy-color-NAVY);
+}
+
+.sassy-background-hover-NAVY:hover {
+    background: var(--sassy-color-NAVY);
+}
+
+.sassy-color-hover-MIDNIGHTBLUE:hover {
+    color: var(--sassy-color-MIDNIGHTBLUE);
+}
+
+.sassy-background-hover-MIDNIGHTBLUE:hover {
+    background: var(--sassy-color-MIDNIGHTBLUE);
+}
+
+.sassy-color-hover-CORNSILK:hover {
+    color: var(--sassy-color-CORNSILK);
+}
+
+.sassy-background-hover-CORNSILK:hover {
+    background: var(--sassy-color-CORNSILK);
+}
+
+.sassy-color-hover-BLANCHEDALMOND:hover {
+    color: var(--sassy-color-BLANCHEDALMOND);
+}
+
+.sassy-background-hover-BLANCHEDALMOND:hover {
+    background: var(--sassy-color-BLANCHEDALMOND);
+}
+
+.sassy-color-hover-BISQUE:hover {
+    color: var(--sassy-color-BISQUE);
+}
+
+.sassy-background-hover-BISQUE:hover {
+    background: var(--sassy-color-BISQUE);
+}
+
+.sassy-color-hover-NAVAJOWHITE:hover {
+    color: var(--sassy-color-NAVAJOWHITE);
+}
+
+.sassy-background-hover-NAVAJOWHITE:hover {
+    background: var(--sassy-color-NAVAJOWHITE);
+}
+
+.sassy-color-hover-WHEAT:hover {
+    color: var(--sassy-color-WHEAT);
+}
+
+.sassy-background-hover-WHEAT:hover {
+    background: var(--sassy-color-WHEAT);
+}
+
+.sassy-color-hover-BURLYWOOD:hover {
+    color: var(--sassy-color-BURLYWOOD);
+}
+
+.sassy-background-hover-BURLYWOOD:hover {
+    background: var(--sassy-color-BURLYWOOD);
+}
+
+.sassy-color-hover-TAN:hover {
+    color: var(--sassy-color-TAN);
+}
+
+.sassy-background-hover-TAN:hover {
+    background: var(--sassy-color-TAN);
+}
+
+.sassy-color-hover-ROSYBROWN:hover {
+    color: var(--sassy-color-ROSYBROWN);
+}
+
+.sassy-background-hover-ROSYBROWN:hover {
+    background: var(--sassy-color-ROSYBROWN);
+}
+
+.sassy-color-hover-SANDYBROWN:hover {
+    color: var(--sassy-color-SANDYBROWN);
+}
+
+.sassy-background-hover-SANDYBROWN:hover {
+    background: var(--sassy-color-SANDYBROWN);
+}
+
+.sassy-color-hover-GOLDENROD:hover {
+    color: var(--sassy-color-GOLDENROD);
+}
+
+.sassy-background-hover-GOLDENROD:hover {
+    background: var(--sassy-color-GOLDENROD);
+}
+
+.sassy-color-hover-DARKGOLDENROD:hover {
+    color: var(--sassy-color-DARKGOLDENROD);
+}
+
+.sassy-background-hover-DARKGOLDENROD:hover {
+    background: var(--sassy-color-DARKGOLDENROD);
+}
+
+.sassy-color-hover-PERU:hover {
+    color: var(--sassy-color-PERU);
+}
+
+.sassy-background-hover-PERU:hover {
+    background: var(--sassy-color-PERU);
+}
+
+.sassy-color-hover-CHOCOLATE:hover {
+    color: var(--sassy-color-CHOCOLATE);
+}
+
+.sassy-background-hover-CHOCOLATE:hover {
+    background: var(--sassy-color-CHOCOLATE);
+}
+
+.sassy-color-hover-SADDLEBROWN:hover {
+    color: var(--sassy-color-SADDLEBROWN);
+}
+
+.sassy-background-hover-SADDLEBROWN:hover {
+    background: var(--sassy-color-SADDLEBROWN);
+}
+
+.sassy-color-hover-SIENNA:hover {
+    color: var(--sassy-color-SIENNA);
+}
+
+.sassy-background-hover-SIENNA:hover {
+    background: var(--sassy-color-SIENNA);
+}
+
+.sassy-color-hover-BROWN:hover {
+    color: var(--sassy-color-BROWN);
+}
+
+.sassy-background-hover-BROWN:hover {
+    background: var(--sassy-color-BROWN);
+}
+
+.sassy-color-hover-MAROON:hover {
+    color: var(--sassy-color-MAROON);
+}
+
+.sassy-background-hover-MAROON:hover {
+    background: var(--sassy-color-MAROON);
+}
+
+.sassy-color-hover-SNOW:hover {
+    color: var(--sassy-color-SNOW);
+}
+
+.sassy-background-hover-SNOW:hover {
+    background: var(--sassy-color-SNOW);
+}
+
+.sassy-color-hover-HONEYDEW:hover {
+    color: var(--sassy-color-HONEYDEW);
+}
+
+.sassy-background-hover-HONEYDEW:hover {
+    background: var(--sassy-color-HONEYDEW);
+}
+
+.sassy-color-hover-MINTCREAM:hover {
+    color: var(--sassy-color-MINTCREAM);
+}
+
+.sassy-background-hover-MINTCREAM:hover {
+    background: var(--sassy-color-MINTCREAM);
+}
+
+.sassy-color-hover-AZURE:hover {
+    color: var(--sassy-color-AZURE);
+}
+
+.sassy-background-hover-AZURE:hover {
+    background: var(--sassy-color-AZURE);
+}
+
+.sassy-color-hover-ALICEBLUE:hover {
+    color: var(--sassy-color-ALICEBLUE);
+}
+
+.sassy-background-hover-ALICEBLUE:hover {
+    background: var(--sassy-color-ALICEBLUE);
+}
+
+.sassy-color-hover-GHOSTWHITE:hover {
+    color: var(--sassy-color-GHOSTWHITE);
+}
+
+.sassy-background-hover-GHOSTWHITE:hover {
+    background: var(--sassy-color-GHOSTWHITE);
+}
+
+.sassy-color-hover-WHITESMOKE:hover {
+    color: var(--sassy-color-WHITESMOKE);
+}
+
+.sassy-background-hover-WHITESMOKE:hover {
+    background: var(--sassy-color-WHITESMOKE);
+}
+
+.sassy-color-hover-SEASHELL:hover {
+    color: var(--sassy-color-SEASHELL);
+}
+
+.sassy-background-hover-SEASHELL:hover {
+    background: var(--sassy-color-SEASHELL);
+}
+
+.sassy-color-hover-BEIGE:hover {
+    color: var(--sassy-color-BEIGE);
+}
+
+.sassy-background-hover-BEIGE:hover {
+    background: var(--sassy-color-BEIGE);
+}
+
+.sassy-color-hover-OLDLACE:hover {
+    color: var(--sassy-color-OLDLACE);
+}
+
+.sassy-background-hover-OLDLACE:hover {
+    background: var(--sassy-color-OLDLACE);
+}
+
+.sassy-color-hover-FLORALWHITE:hover {
+    color: var(--sassy-color-FLORALWHITE);
+}
+
+.sassy-background-hover-FLORALWHITE:hover {
+    background: var(--sassy-color-FLORALWHITE);
+}
+
+.sassy-color-hover-IVORY:hover {
+    color: var(--sassy-color-IVORY);
+}
+
+.sassy-background-hover-IVORY:hover {
+    background: var(--sassy-color-IVORY);
+}
+
+.sassy-color-hover-ANTIQUEWHITE:hover {
+    color: var(--sassy-color-ANTIQUEWHITE);
+}
+
+.sassy-background-hover-ANTIQUEWHITE:hover {
+    background: var(--sassy-color-ANTIQUEWHITE);
+}
+
+.sassy-color-hover-LINEN:hover {
+    color: var(--sassy-color-LINEN);
+}
+
+.sassy-background-hover-LINEN:hover {
+    background: var(--sassy-color-LINEN);
+}
+
+.sassy-color-hover-LAVENDERBLUSH:hover {
+    color: var(--sassy-color-LAVENDERBLUSH);
+}
+
+.sassy-background-hover-LAVENDERBLUSH:hover {
+    background: var(--sassy-color-LAVENDERBLUSH);
+}
+
+.sassy-color-hover-MISTYROSE:hover {
+    color: var(--sassy-color-MISTYROSE);
+}
+
+.sassy-background-hover-MISTYROSE:hover {
+    background: var(--sassy-color-MISTYROSE);
+}
+
+.sassy-color-hover-GAINSBORO:hover {
+    color: var(--sassy-color-GAINSBORO);
+}
+
+.sassy-background-hover-GAINSBORO:hover {
+    background: var(--sassy-color-GAINSBORO);
+}
+
+.sassy-color-hover-LIGHTGRAY:hover {
+    color: var(--sassy-color-LIGHTGRAY);
+}
+
+.sassy-background-hover-LIGHTGRAY:hover {
+    background: var(--sassy-color-LIGHTGRAY);
+}
+
+.sassy-color-hover-SILVER:hover {
+    color: var(--sassy-color-SILVER);
+}
+
+.sassy-background-hover-SILVER:hover {
+    background: var(--sassy-color-SILVER);
+}
+
+.sassy-color-hover-DARKGRAY:hover {
+    color: var(--sassy-color-DARKGRAY);
+}
+
+.sassy-background-hover-DARKGRAY:hover {
+    background: var(--sassy-color-DARKGRAY);
+}
+
+.sassy-color-hover-GRAY:hover {
+    color: var(--sassy-color-GRAY);
+}
+
+.sassy-background-hover-GRAY:hover {
+    background: var(--sassy-color-GRAY);
+}
+
+.sassy-color-hover-DIMGRAY:hover {
+    color: var(--sassy-color-DIMGRAY);
+}
+
+.sassy-background-hover-DIMGRAY:hover {
+    background: var(--sassy-color-DIMGRAY);
+}
+
+.sassy-color-hover-LIGHTSLATEGRAY:hover {
+    color: var(--sassy-color-LIGHTSLATEGRAY);
+}
+
+.sassy-background-hover-LIGHTSLATEGRAY:hover {
+    background: var(--sassy-color-LIGHTSLATEGRAY);
+}
+
+.sassy-color-hover-SLATEGRAY:hover {
+    color: var(--sassy-color-SLATEGRAY);
+}
+
+.sassy-background-hover-SLATEGRAY:hover {
+    background: var(--sassy-color-SLATEGRAY);
+}
+
+.sassy-color-hover-DARKSLATEGRAY:hover {
+    color: var(--sassy-color-DARKSLATEGRAY);
+}
+
+.sassy-background-hover-DARKSLATEGRAY:hover {
+    background: var(--sassy-color-DARKSLATEGRAY);
+}
+
+.sassy-color-hover-BLACK:hover {
+    color: var(--sassy-color-BLACK);
+}
+
+.sassy-background-hover-BLACK:hover {
+    background: var(--sassy-color-BLACK);
+}
